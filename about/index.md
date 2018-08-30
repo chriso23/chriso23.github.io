@@ -1,8 +1,7 @@
 # About this website
 
-[This personal website](https://chrisoung1.github.io/) is:
+[This website](https://chrisoung1.github.io/) is:
 
-- Powered by [Jekyll](https://jekyllrb.com/); 
-- Hosted on [GitHub](https://github.com/) thanks to [GitHub Pages](https://pages.github.com/).
+- Powered by [Jekyll](https://jekyllrb.com/) and hosted on [GitHub](https://github.com/) thanks to [GitHub Pages](https://pages.github.com/).
 
 
