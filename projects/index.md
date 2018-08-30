@@ -1,3 +1,9 @@
+---
+
+layout: default
+title: Projects | Chris Oung
+
+---
 # Recent Projects
 
 - [UWaveAndroid Android App](https://chrisoung1.github.io/work/)
