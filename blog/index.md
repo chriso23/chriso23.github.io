@@ -1,3 +1,3 @@
-# Blog
+# Blog posts
 
 Coming soon
