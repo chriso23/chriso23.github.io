@@ -1,11 +1,11 @@
 body { margin: 60px auto; width: 70%; }
     
-p { font-size: 1em; color: #333; }
-a { text-decoration: none; color: #6787b7; }
+p { font-size: 1.4em; color: #333; }
+a { text-decoration: none; color: #0080ff; }
 a:hover { text-decoration: underline; }
 
-ul { font-size: 1em; line-height: 1.2em; color: #333; }
-ul p { font-size: 1em; line-height: 1.2em; color: #333; }
+ul { font-size: 1.4em; line-height: 1.4em; color: #333; }
+ul p { font-size: 1.4em; line-height: 1.4em; color: #333; }
 
 
 h1, h2, h3, h4 { font-family: 'Helvetica', 'Arial', 'Sans-Serif'; }
