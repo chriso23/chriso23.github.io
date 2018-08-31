@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Blog Posts | Chris Oung
+title: Blog posts | Chris Oung
 ---
 
 # Blog posts
