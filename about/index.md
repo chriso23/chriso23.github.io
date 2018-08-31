@@ -9,7 +9,7 @@ This website ([chrisoung1.github.io](https://chrisoung1.github.io)) is:
 
 - Written in [HTML5](https://www.w3schools.com/html/html5_syntax.asp) and [Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 
-- A **work in progress**
+- A work in progress
 
 - Designed by Chris Oung
 
