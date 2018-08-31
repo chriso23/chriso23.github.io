@@ -1,3 +1,5 @@
 name: Chris Oung
 markdown: kramdown
 theme: jekyll-theme-midnight
+plugins:
+  - jekyll-sitemap
