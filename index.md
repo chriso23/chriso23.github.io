@@ -9,5 +9,5 @@ Curious writer and developer with interests in technical communication, instruct
 
 Working as a Technical Editor—_and leveraging the newest technologies to enhance the classroom experience_—for students at the University of Washington.
 
-Check out my [recent work](https://chrisoung1.github.io/uwave-radio/)
+Check out my [recent work](https://chrisoung1.github.io/uwave-radio/).
 
