@@ -1,10 +1,11 @@
 body { margin: 60px auto; width: 70%; }
-
-a { text-decoration: none; color: #6787b7;  }
+    
+p { font-size: 1em; color: #333; }
+a { text-decoration: none; color: #6787b7; }
 a:hover { text-decoration: underline; }
 
-ul { font-size: 1em; line-height: 1.4em; color: #333; }
-p { font-size: 1em; line-height: 1.4em; color: #333; }
+ul { font-size: 1em; line-height: 1.2em; color: #333; }
+ul p { font-size: 1em; line-height: 1.2em; color: #333; }
 
 
 h1, h2, h3, h4 { font-family: 'Helvetica', 'Arial', 'Sans-Serif'; }
@@ -17,7 +18,8 @@ nav ul, footer ul { font-size: 1em; font-family: 'Helvetica', 'Arial', 'Sans-Ser
 nav ul li, footer ul li { display: inline; margin-right: 20px; }
 nav ul li a, footer ul li a { color: #999; }
 
-    nav {font-size: 1em}
+/* nav and footer **/
+nav {font-size: 0.8em}
 footer { border-top: 1px solid #d5d5d5; font-size: .6em; }
 
 /* Blog */
@@ -31,4 +33,3 @@ ul.posts li { list-style: none; }
 .resume address, .cv .download { font-family: 'Helvetica', 'Arial', 'Sans-Serif'; }
 .resume address, .cv p { font-size: 1.2em; }
 .resume .download { float: right; font-size: .8em; text-transform: uppercase; }
-
