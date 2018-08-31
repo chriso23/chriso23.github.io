@@ -7,7 +7,7 @@ title: Home | Chris Oung
 
 Curious writer and developer with interests in technical communication, instructional design, and best practices. 
 
-_Working as a Technical Editor—leveraging the newest technologies to enhance the classroom experience—for students at the University of Washington_
+Working as a Technical Editor—_and leveraging the newest technologies to enhance the classroom experience_—for students at the University of Washington.
 
 Check out my [recent work](https://chrisoung1.github.io/uwave-radio/)
 
