@@ -1,11 +1,10 @@
 ---
-layout: default
 title: Blog Posts | Chris Oung
 ---
 
 # Blog posts
 
-### Educational Technology: 
+#### Educational Technology: 
 ---
 (Coming soon)
 
