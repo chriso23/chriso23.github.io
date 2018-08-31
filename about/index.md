@@ -1,7 +1,10 @@
 ---
-layout: default
+
+layout: none
 title: About this website | Chris Oung
+
 ---
+
 #About this website
 
 This website ([chrisoung1.github.io](https://chrisoung1.github.io)) is: 
