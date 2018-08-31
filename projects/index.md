@@ -2,6 +2,6 @@
 layout: default
 title: Projects | Chris Oung
 ---
-# Recent work
+# Projects
 
-- 2018 [UWaveAndroid Android App](https://chrisoung1.github.io/work/)
+_January 2018—June 2018_ [UWaveAndroid Android App](https://chrisoung1.github.io/uwave-radio/)
