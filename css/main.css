@@ -122,29 +122,37 @@
         /* Resume */
 
         .resume {
-            margin: 0px 0px 60px;
+                margin: 0px 0px 60px;
         }
 
-        .resume h1 {
-            font-size: 3em;
-        }
-
-        .resume h2 {
-            font-size: 2em;
-        }
+        .resume h5 {
+                font-size: 2em;
+                font-weight: bold;
+                font-family: "Arial", "Helvetica", "Verdana";
+       }
 
         .resume address,
-        .cv .download {
-            font-family: 'Helvetica', 'Arial', 'Sans-Serif';
-        }
-
-        .resume address,
-        .cv p {
-            font-size: 1.2em;
-        }
-
         .resume .download {
-            float: right;
-            font-size: .8em;
-            text-transform: uppercase;
+                font-family: 'Helvetica', 'Arial', 'Sans-Serif';
+                line-height: 1em;
         }
+
+        .resume address,
+        .resume p {
+        font-size: 1em;
+        line-height: 1.2em;
+        }
+
+.resume .download {
+    float: right;
+    font-size: 1em;
+    text-transform: uppercase;
+}
+
+.resume ul,
+.resume p {
+    line-height: 1.2em;
+    font-size: 1em;
+    font-family: "Arial", "Helvetica", "Verdana";
+
+}
