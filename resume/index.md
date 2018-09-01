@@ -5,9 +5,6 @@ title: Resume | Chris Oung
 
 # Resume
 
-- [View this resume](https://drive.google.com/file/d/11KD4QkKtaVGDSB9OjL0bex2N55PkBEYn/view?usp=sharing) in PDF
-
-
 #### Technical Skills
 
 - Content management systems—WordPress, Kentico, GitHub Pages, and Google Sites
@@ -19,34 +16,30 @@ title: Resume | Chris Oung
 
 #### Employment History
 
-**Technical Editor**
-
 *University of Washington, IT Digital Learning & Innovation, Bothell, WA*
 
+**Technical Editor,** 
 *(3/2017–Present)*
 
-- Edit, clarify, and proofread documentation drafts for the learner community at the UW Bothell campus 
+
+- Edit, clarify, and proofread documentation drafts for the learner community at the UW Bothell campus
 - Research new technologies and eLearning practices; prepare reports based on research findings 
-- Technologies used: WordPress, Kentico, G Suite apps, Trello, HTML5, and CSS3
 
-
-**Digital Learning Assistant**
 
 *University of Washington, IT Digital Learning & Innovation, Bothell, WA*
 
+**Digital Learning Assistant,** 
 *(3/2017–09/2017)*
 
 - Helped strengthen students understanding of web technologies and multimedia editing tools
 - Created training modules for photo, audio, and video editing software tools
-- Technologies used: WordPress, Kentico, G Suite apps, Trello, HTML5, and CSS3
 
 
 #### Volunteer Experience
 
-**Android Developer** 
-
 *UWave Radio Station, Bothell, WA*
 
+**Android Developer** 
 *(1/2018–6/2018)*
 
 - Helped a local radio station expand its brand and web presence at the UW Bothell campus
@@ -57,4 +50,5 @@ title: Resume | Chris Oung
 
 #### Education
 
-*BA, Interactive Media Design, University of Washington, Bothell, WA (2018)* 
+*BA, Interactive Media Design, University of Washington, Bothell, WA*
+(2018)
