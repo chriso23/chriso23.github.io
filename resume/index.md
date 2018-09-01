@@ -3,6 +3,6 @@ layout: default
 title: Resume | Chris Oung
 ---
 
-<h1>Resume</h1>
+# Resume
 
 <iframe src="https://drive.google.com/file/d/11KD4QkKtaVGDSB9OjL0bex2N55PkBEYn/preview" width="100%" height="500"></iframe>
