@@ -1,37 +1,127 @@
-body { margin: 60px auto; width: 70%; }
+				body {
+            margin: 60px auto;
+            width: 70%;
+        }
 
-img {width: 100%; }
+        img {
+            width: 100%;
+        }
 
-p { font-size: 1.2em; color: #333; }
-a { text-decoration: none; color: #0080ff; }
-a:hover { text-decoration: underline; }
+        p {
+            font-size: 1.2em;
+            color: #444;
+            font-family: "Arial";
+        }
 
-ul { font-size: 1.2em; line-height: 1.4em; color: #333; }
-ul p { font-size: 1.2em; line-height: 1.4em; color: #333; }
+        a {
+            text-decoration: none;
+            color: #0080ff;
+        }
 
+        a:hover {
+            text-decoration: underline;
+        }
 
-h1, h2, h3, h4 { font-family: 'Helvetica', 'Arial', 'Sans-Serif'; }
-h1 { font-size: 3em;  }
-h2 { font-size: 2.7em; }
-h3 { font-size: 2.3em; }
-h4 { font-size: 1.9em; }
+        ul {
+            font-size: 1em;
+            line-height: 1em;
+            color: #444;
+        }
 
-nav ul, footer ul { font-size: 1em; font-family: 'Helvetica', 'Arial', 'Sans-Serif'; padding: 0px; list-style: none; }
-nav ul li, footer ul li { display: inline; margin-right: 20px; }
-nav ul li a, footer ul li a { color: #666; }
+        ul p {
+            font-size: 1em;
+            line-height: 1.2em;
+            color: #444;
+        }
 
-/* nav and footer **/
-nav {font-size: 0.8em; font-weight: bold; }
-footer { border-top: 1px solid #d5d5d5; font-size: .6em; font-weight: normal; }
+        h1, h2, h3, h4 { font-family: "Arial", "Helvetica", "Verdana"; font-weight: bold;}
 
-/* Blog */
-ul.posts { margin: 20px auto 40px; font-size: 1.2em; }
-ul.posts li { list-style: none; }
+        h1 {
+            font-size: 3em;
+        }
 
-/* Resume */
-.resume { margin: 0px 0px 60px; }
-.resume h1 { font-size: 3em; }
-.resume h2 { font-size: 2em; }
-.resume address, .cv .download { font-family: 'Helvetica', 'Arial', 'Sans-Serif'; }
-.resume address, .cv p { font-size: 1.2em; }
-.resume .download { float: right; font-size: .8em; text-transform: uppercase; }
+        h2 {
+            font-size: 2.7em;
+        }
+
+        h3 {
+            font-size: 2.3em;
+        }
+
+        h4 {
+            font-size: 1.9em;
+        }
+
+        nav ul,
+        footer ul {
+            font-size: 1em;
+            font-family: 'Helvetica', 'Arial', 'Sans-Serif';
+            padding: 0px;
+            list-style: none;
+            font-weight: bold;
+            margin:20px auto;
+        }
+
+        nav ul li,
+        footer ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav ul li a,
+        footer ul li a {
+            color: #666;
+        }
+
+        /* nav and footer **/
+
+        nav {
+            font-size: 0.8em
+        }
+
+        footer {
+            border-top: 1px solid #d5d5d5;
+            font-size: .6em;
+            text-align: right;
+        }
+
+        /* Blog */
+
+        ul.posts {
+            margin: 20px auto 40px;
+            font-size: 1.2em;
+        }
+
+        ul.posts li {
+            list-style: none;
+        }
+
+        /* Resume */
+
+        .resume {
+            margin: 0px 0px 60px;
+        }
+
+        .resume h1 {
+            font-size: 3em;
+        }
+
+        .resume h2 {
+            font-size: 2em;
+        }
+
+        .resume address,
+        .cv .download {
+            font-family: 'Helvetica', 'Arial', 'Sans-Serif';
+        }
+
+        .resume address,
+        .cv p {
+            font-size: 1.2em;
+        }
+
+        .resume .download {
+            float: right;
+            font-size: .8em;
+            text-transform: uppercase;
+        }
