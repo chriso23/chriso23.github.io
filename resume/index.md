@@ -16,6 +16,7 @@ title: Resume | Chris Oung
 - Source code management tools—Git and GitHub
 - Operating systems—Android, Mac OS, Windows, and Linux 
 
+
 #### Employment History
 
 **Technical Editor**
@@ -39,6 +40,7 @@ title: Resume | Chris Oung
 - Created training modules for photo, audio, and video editing software tools
 - Technologies used: WordPress, Kentico, G Suite apps, Trello, HTML5, and CSS3
 
+
 #### Volunteer Experience
 
 **Android Developer** 
@@ -52,8 +54,7 @@ title: Resume | Chris Oung
 - Created project plans and supporting documentation for each project
 - Collaborated with 3 team members to develop code and test performance of the Android app
 
+
 #### Education
 
-*BA, Interactive Media Design, University of Washington, Bothell, WA*
-
-*(2018)* 
+*BA, Interactive Media Design, University of Washington, Bothell, WA (2018)* 
