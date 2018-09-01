@@ -1,44 +1,51 @@
         body {
             margin: 40px auto;
             width: 70%;
+            background-color: white;
         }
-        
+
         .container {
             margin: 40px auto;
         }
 
-        img {
+        .container img {
             width: 100%;
         }
 
-        p {
-            font-size: 1.2em;
-            color: #444;
-            font-family: "Arial";
+        .container p {
+            font-size: 1.1em;
+            color: #555;
+            font-family: "Helvetica";
         }
 
-        a {
+        .container a {
             text-decoration: none;
-            color: #0080ff;
+            color: blue;
         }
 
-        a:hover {
+        .container a:hover {
             text-decoration: underline;
         }
 
-        ul {
-            font-size: 1em;
-            line-height: 1em;
-            color: #444;
+        .container ul {
+            font-size: 1.1em;
+            line-height: 1.1em;
+            color: #555;
         }
 
-        ul p {
-            font-size: 1em;
-            line-height: 1.2em;
-            color: #444;
+        .container ul p {
+            font-size: 1.1em;
+            line-height: 1.1em;
+            color: #555;
         }
 
-        h1, h2, h3, h4 { font-family: "Arial", "Helvetica", "Verdana"; font-weight: bold;}
+        h1,
+        h2,
+        h3,
+        h4 {
+            font-family: "Arial", "Helvetica", "Verdana";
+            font-weight: bold;
+        }
 
         h1 {
             font-size: 3em;
@@ -58,40 +65,47 @@
 
         nav ul,
         footer ul {
-            font-family: 'Helvetica', 'Arial', 'Sans-Serif';
+            font-family: 'Helvetica', 'Arial', 'Verdana';
             padding: 0px;
             list-style: none;
-            font-weight: bold;
-            margin:20px auto;
+            margin: 10px auto;
         }
 
         nav ul li,
         footer ul li {
-            display: inline;
+            display: inline-block;
             margin-right: 20px;
         }
 
         nav ul li a,
         footer ul li a {
-            color: #666;
+            color: #777;
         }
 
         /* nav and footer **/
 
-        nav {
+        nav a {
             font-size: 1em;
+            font-weight: bold;
+            text-decoration: none;
         }
 
         footer {
+            font-size: 0.8em;
             border-top: 1px solid #d5d5d5;
-            font-size: 0.7em;
-            text-align: right;
         }
-        
-        footer .website {
+
+        footer ul .contacts {
+            float: right;
+            font-weight: 500;
+
+        }
+
+        footer ul .website li {
             float: left;
-            font-size: 1em;
-            
+            text-decoration: none;
+            font-style: oblique;
+
         }
 
         /* Blog */
