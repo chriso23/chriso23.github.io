@@ -9,7 +9,7 @@
 
 	<body>
 	
-	{% include nav.html %}
+	{% include_relative {{ nav.html }} %}
 
 
 
@@ -20,8 +20,7 @@
     	</div><!-- /.container -->
 
 
-	{% include footer.html %}
-
+	{% include_relative {{ footer.html }} %}
 
 </body>
 </html>
