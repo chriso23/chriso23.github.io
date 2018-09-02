@@ -9,18 +9,26 @@
 
 	<body>
 	
-	{% include_relative {{ nav.html }} %}
+	<nav>
+  		<ul>
+  			<li><a href="/">Home</a></li>
+  			<li><a href="/resume/">Resume</a></li>
+  			<li><a href="/blog/">Blog</a></li>
+  			<li><a href="/projects/">Projects</a></li>
+    		</ul>
+
+	</nav>
 
 
 
     	<div class="container">
 
-			{{ content }}
+		{{ content }}
 
     	</div><!-- /.container -->
 
 
-	{% include_relative {{ footer.html }} %}
+	{% include footer.html %}
 
 </body>
 </html>
