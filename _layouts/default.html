@@ -5,43 +5,22 @@
 			<!-- link to main stylesheet -->
 		<link rel="stylesheet" type="text/css" href="/css/main.css">
 	</head>
-        
+
 	<body>
-		<nav>
-			
-	    	<ul>
-	       		<li><a href="/">Home</a></li>
-			<li><a href="/resume/">Resume</a></li>
 
-			<li><a href="/blog/">Blog</a></li>
-			<li><a href="/projects/">Projects</a></li>
-	    	</ul>
-			
-		</nav>
-			
+			{% include nav.html %}
+
+
+
     	<div class="container">
-			
+
 			{{ content }}
-				
+
     	</div><!-- /.container -->
-			
-            
- <footer>
-        <ul>
-            <div class="website">
-                <li><a href="https://chrisoung1.github.io/">chrisoung1.github.io</a></li>
-            </div>
-
-            <div class="contacts">
-
-                <li><a href="mailto:oungc1@uw.edu">Email</a></li>
-                <li><a href="https://github.com/chrisoung1">GitHub</a></li>
-                <li><a href="https://linkedin.com/in/chris-oung/">LinkedIn</a></li>
-
-            </div>
-        </ul>
 
 
-    </footer>
+		{% include footer.html %}
+
+
 </body>
 </html>
