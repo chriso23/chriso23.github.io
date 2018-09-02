@@ -1,42 +1,17 @@
         body {
-            margin: 40px auto;
+            margin: 60px auto;
             width: 70%;
-            background-color: white;
         }
 
-        .container {
-            margin: 40px auto;
+        img {
+          width: 100%;
         }
 
-        .container img {
-            width: 100%;
-        }
-
-        .container p {
-            font-size: 1.1em;
-            color: #555;
-            font-family: "Helvetica";
-        }
-
-        .container a {
-            text-decoration: none;
-            color: #3366BB;
-        }
-
-        .container a:hover {
-            text-decoration: underline;
-        }
-
-        .container ul {
-            font-size: 1.1em;
-            line-height: 1.1em;
-            color: #555;
-        }
-
-        .container ul p {
-            font-size: 1.1em;
-            line-height: 1.1em;
-            color: #555;
+        p {
+          font-family: "Arial", "Helvetica", "Verdana";
+          font-size:1.2em;
+          line-height: 1.2em;
+          color: #333;
         }
 
         h1,
@@ -84,11 +59,17 @@
 
         /* nav and footer **/
 
-        nav a {
+        nav {
             font-size: 1.2em;
             font-weight: bold;
-            text-decoration: none;
+
         }
+
+        nav a {
+          text-decoration:none;
+        }
+
+
 
         footer {
             border-top: 1px solid #d5d5d5;
@@ -144,21 +125,8 @@
         line-height: 1.2em;
         }
 
-.resume .download {
-    float: right;
-    font-size: 1em;
-    text-transform: uppercase;
-}
-
-.resume ul,
-.resume p {
-    line-height: 1.2em;
-    font-size: 1em;
-    font-family: "Arial", "Helvetica", "Verdana";
-
-}
-
-#projects a {
-        font-style: normal;
-        
-}
+        .resume .download {
+          float: right;
+          font-size: 1em;
+          text-transform: uppercase;
+        }
