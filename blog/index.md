@@ -3,6 +3,6 @@ layout: default
 title: Blog posts | Chris Oung 
 ---
 
-# Blog
+# Blog posts
 
 *(Coming soon)*
