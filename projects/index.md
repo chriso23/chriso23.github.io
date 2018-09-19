@@ -8,4 +8,4 @@ title: Projects | Chris Oung
 
 _January 2018—June 2018_
 
-[![UWaveRadio Android App: Overview](https://github.com/chrisoung1/uwave-radio/blob/master/assets/img/uwave-website.png?raw=true)](https://chrisoung1.github.io/uwave-radio/)
+[![UWaveRadio Android App: Overview](https://github.com/chrisoung1/uwave-radio/blob/master/assets/img/uwave-website.png =200px)](https://chrisoung1.github.io/uwave-radio/)
