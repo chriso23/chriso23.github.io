@@ -4,7 +4,7 @@ title: Projects | Chris Oung
 ---
 # Projects
 
-[UWaveRadio Android App](https://chrisoung1.github.io/uwave-radio/)
+[UWaveRadio Android App](https://chrisoung1.github.io/uwave-radio-website/)
 
 _January 2018—June 2018_
 
