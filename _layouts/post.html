@@ -1,9 +1,18 @@
 ---
 layout: default
 ---
-<h1>{{ page.title }}</h1>
-<p class="meta">{{ page.date | date_to_string }}</p>
+<!--------------Layout for posts-------------->
+<article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
-<div class="post">
-  {{ content }}
-</div>
+  <header class="post-header">
+      <h4 itemprop="name headline">{{ page.title | escape }}</h4>
+      <p><small class="date">Posted on {{ page.date | date: "%b %-d, %Y" }}</small></p>
+      <p><small>By {{ site.author }}</small></p>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    {{ content }}
+  </div>
+
+  <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
+</article>

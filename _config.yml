@@ -1,2 +1,61 @@
-name: Chris Oung
-markdown: kramdown
+
+name: CHRISTOPHER OUNG
+
+author: Chris Oung
+
+description: Technical Writer | Software Developer
+footer-links:
+  dribbble:
+  email: oungc1@uw.edu
+  facebook:
+  flickr:
+  github: chrisoung1
+  instagram:
+  linkedin: chrisoung1
+  pinterest:
+  rss: https://chrisoung1.github.io 
+  twitter: 
+  stackoverflow:
+  youtube: 
+  googleplus: 
+
+url: https://chrisoung1.github.io
+
+baseurl: ""
+
+theme: minima
+
+minima:
+  date_format: "%b %d, %Y"
+
+excerpt_separator: <!--more-->
+
+permalink: /:title/
+
+version: v1.2.0
+
+kramdown:
+  input: GFM
+
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    css_class: 'highlight'
+
+
+sass:
+  style: :expanded 
+
+
+plugin_dir:
+  - jekyll-sitemap 
+  - jekyll-feed 
+  - jekyll-paginate
+  - jekyll-seo-tag
+
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md
+  - CNAME

@@ -1,20 +1,19 @@
 ---
-layout: default
-title: About this website | Chris Oung
+layout: page
+title: About
 ---
 
-# About this website
+#### About
+<br/>
+A deadline-driven Technical Editor with a demonstrated history of working in the higher education industry. Experienced in technical writing, software documentation, web publishing, object-oriented programming, and project management. Recently graduated with a BA in Interactive Media Design from the University of Washington. 
 
-This website ([chrisoung1.github.io](https://chrisoung1.github.io)) is: 
+Contact info: 
 
-- Written in [HTML5](https://www.w3schools.com/html/html5_syntax.asp) and [Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+- Email: [oungc1@uw.edu](mailto:oungc1@uw.edu)
+- LinkedIn: [www.linkedin.com/in/chrisoung1]()
+- GitHub: [github.com/chrisoung1](github.com/chrisoung1)
 
-- A work in progress
 
-- Designed by Chris Oung
-
-- Powered by [Jekyll](https://jekyllrb.com/)
-
-- Hosted by [GitHub](https://github.com/) thanks to [GitHub Pages](https://github.com/pages)
+ 
 
 

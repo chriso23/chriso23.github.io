@@ -1,8 +1,19 @@
 ---
 layout: default
-title: Home | Chris Oung
+title: Blog posts
 ---
 
-# Hi, I'm Chris!
-
-A curious writer with interests in technical communication, instructional design, software development, and the best practices. Working as an editor—and leveraging the latest technologies to enhance the online classroom experience—for the students, staff, and faculty at the University of Washington Bothell.
+#### Blog posts
+<br/>
+<!---------Loops through all posts---------------->
+<ul class="posts">
+  {% for post in site.posts %}
+    <li>
+     <a href="{{ post.url }}">
+        {{ post.title }}
+      </a>
+      <p><small class="date"><time datetime="{{ post.date | date: "%b %-d, %Y" }}">{{ post.date | date_to_long_string }}</time></small></p>
+    </li>
+    <br/>
+  {% endfor %}
+</ul>

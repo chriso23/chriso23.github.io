@@ -1,26 +1,15 @@
-
 <!DOCTYPE html>
 <html>
-	<head>
-		<title>{{ page.title }}</title>
-			<!-- link to main stylesheet -->
-		<link rel="stylesheet" type="text/css" href="/css/main.css">
-	</head>
-
-	<body>
-	
-	{% include nav.html %}
-
-
-
-    	<div class="container">
-
-		{{ content }}
-
-    	</div><!-- /.container -->
-
-
-	{% include footer.html %}
-
-</body>
+   <!---------head elements------>
+  {% include head.html %}
+  <body>
+    <!---------Header and navigation elements--------->
+    {% include header.html %} 
+    <!------Main---------->
+      <main id="main" class="container" role="main">
+        {{ content }}
+      </main>
+      <!---------Footer elements-------------->
+    {% include footer.html %}
+  </body>
 </html>
