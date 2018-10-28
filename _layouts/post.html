@@ -4,10 +4,10 @@ layout: default
 <!--------------Layout for posts-------------->
 <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
-  <header class="post-header">
+    <div class=" jumbotron">
       <h4 itemprop="name headline">{{ page.title | escape }}</h4>
       <p><small class="date">Posted on {{ page.date | date: "%b %-d, %Y" }} | By <a href="{{ site.url }}/about/">{{ site.author }}</a></small></p>
-  </header>
+    </div>
 
   <div class="post-content e-content" itemprop="articleBody">
     {{ content }}
