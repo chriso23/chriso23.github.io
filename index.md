@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Blog posts
+title: Blog
 ---
 
 #### Blog posts
@@ -12,7 +12,7 @@ title: Blog posts
      <a href="{{ post.url }}">
         {{ post.title }}
       </a>
-      <p><small class="date"><time datetime="{{ post.date | date: "%b %-d, %Y" }}">{{ post.date | date_to_long_string }}</time></small></p>
+    <p><small class="date"><time datetime="{{ page.date | date: "%b %-d, %Y" }}">{{ post.date | date_to_long_string }}</time></small></p>
     </li>
     <br/>
   {% endfor %}

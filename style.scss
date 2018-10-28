@@ -4,12 +4,16 @@
 @import "reset";
 @import "variables";
 
+/**************/
+/* BASE RULES */
+/**************/
+
 html {
   font-size: 100%;
 }
 
 body {
-  background: $white;
+	background: $white;
   font: 18px/1.4 $helvetica;
   color: $darkerGray;
 }
@@ -22,7 +26,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6, p, small {
-  font-family: $helveticaNeue;
+  font-family: $helvetica;
   color: $darkerGray;
   line-height: 1.5;
   margin: 1em 0 1px;
@@ -68,6 +72,10 @@ small {
 
 #pages ul.post {
   list-style-type:decimal;
+}
+
+#projects ul.post {
+  list-style-type:none;
 }
 
 main {
@@ -316,6 +324,7 @@ hr {
   border-top: 1px solid $lightGray;
   padding: 10px 0;
   background-color: $white;
+
 }
 
 
@@ -330,10 +339,10 @@ img {
 
 .gh-pages {
   float:left;
-	
-	a:link {
-		color:$blue;
-	}
+  
+  a:link {
+    color:$blue;
+  }
 }
 
 blockquote, q {

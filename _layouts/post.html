@@ -6,8 +6,7 @@ layout: default
 
   <header class="post-header">
       <h4 itemprop="name headline">{{ page.title | escape }}</h4>
-      <p><small class="date">Posted on {{ page.date | date: "%b %-d, %Y" }}</small></p>
-      <p><small>By {{ site.author }}</small></p>
+      <p><small class="date">Posted on {{ page.date | date: "%b %-d, %Y" }} | By <a href="{{ site.url }}/about/">{{ site.author }}</a></small></p>
   </header>
 
   <div class="post-content e-content" itemprop="articleBody">
