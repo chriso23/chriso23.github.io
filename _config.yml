@@ -46,11 +46,8 @@ sass:
   style: :expanded 
 
 
-plugin_dir:
-  - jekyll-sitemap 
-  - jekyll-feed 
-  - jekyll-paginate
-  - jekyll-seo-tag
+plugins:
+  - jekyll-feed
 
 
 exclude:
