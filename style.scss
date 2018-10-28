@@ -4,10 +4,6 @@
 @import "reset";
 @import "variables";
 
-/**************/
-/* BASE RULES */
-/**************/
-
 html {
   font-size: 100%;
 }
@@ -327,7 +323,6 @@ hr {
 
 }
 
-
 img {
   max-width: 100%;
   vertical-align: middle;
@@ -339,8 +334,9 @@ img {
 
 .gh-pages {
   float:left;
+  color:$gray;
   
-  a:link {
+  a {
     color:$blue;
   }
 }
