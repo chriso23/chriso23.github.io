@@ -25,9 +25,6 @@ baseurl: ""
 
 theme: minima
 
-minima:
-  date_format: "%b %-d, %Y"
-
 excerpt_separator: <!--more-->
 
 permalink: /:title/
