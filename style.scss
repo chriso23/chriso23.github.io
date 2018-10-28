@@ -9,7 +9,7 @@ html {
 }
 
 body {
-	background: $white;
+  background: $white;
   font: 18px/1.4 $helvetica;
   color: $darkerGray;
 }
@@ -330,6 +330,10 @@ img {
 
 .gh-pages {
   float:left;
+	
+	a:link {
+		color:$blue;
+	}
 }
 
 blockquote, q {
