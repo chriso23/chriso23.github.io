@@ -3,13 +3,17 @@
    <!---------head elements------>
   {% include head.html %}
   <body>
-    <!---------Header and navigation elements--------->
+    <!---------Header and navigation elements------->
     {% include header.html %} 
+
     <!------Main---------->
       <main id="main" class="container" role="main">
         {{ content }}
       </main>
-      <!---------Footer elements-------------->
+    <!---------Footer elements-------------->
     {% include footer.html %}
+
+    <!-----CDN support for Bootstrap's JavaScript------>
+    {% include scripts.html %}
   </body>
 </html>

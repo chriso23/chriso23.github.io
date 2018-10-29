@@ -22,3 +22,6 @@ For more information, read the full article on [EdSurge](https://www.edsurge.com
 [1] Source: *[Do Voice Assistant Devices Have a Place in the Classroom](https://www.edsurge.com/news/2018-07-11-do-voice-assistant-devices-have-a-place-in-the-classroom)*
 
 [2] Source: *[Alexa’s role as the platform for educational goods will push Amazon into Educational services](https://medium.com/human-learning/alexa-amazons-trojan-horse-as-an-education-platform-8e284d7e3ca0)*
+
+
+

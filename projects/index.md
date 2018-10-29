@@ -3,8 +3,8 @@ layout: page
 title: Projects
 ---
 
-#### Projects
-<br/>
+### Projects
+---
 
 <ul id="projects" class="posts">
     <li>
@@ -13,7 +13,6 @@ title: Projects
     </a>
     <p><small class="date"><time datetime="{{ post.date | date: "%b %-d, %Y" }}">January 2018 to June 2018</time></small></p>
     </li>
-    <br/>
 </ul>
 
 

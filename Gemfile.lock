@@ -70,7 +70,7 @@ DEPENDENCIES
   jekyll (~> 3.8.4)
   jekyll-feed
   jekyll-sitemap
-  minima (~> 2.0)
+  minima
   tzinfo-data
 
 BUNDLED WITH
