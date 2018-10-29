@@ -6,7 +6,7 @@ layout: default
 
     <header class="jumbotron text-center">
       <h4 itemprop="name headline">{{ page.title | escape }}</h4> <br/>
-      <small class="date">Posted on {{ page.date | date: "%b %-d, %Y" }} | By <a style="font-size: 12px;" href="{{ site.url }}/about/">{{ site.author }}</a></small>
+      <small class="date">{{ page.date | date: "%b %-d, %Y" }} | By <a style="font-size: 12px;" href="{{ site.url }}/about/">{{ site.author }}</a></small>
     </header>
 
   <div class="post-content e-content" itemprop="articleBody">
