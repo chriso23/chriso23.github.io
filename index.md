@@ -10,7 +10,7 @@ title: Blog
      <a href="{{ post.url }}">
         {{ post.title }}
       </a>
-      <p><small class="date">Published on {{ post.date | date: "%b %-d, %Y" }}</small></p>
+      <p><small class="date">Posted on {{ post.date | date: "%b %-d, %Y" }}</small></p>
     </li>
     <br/>
   {% endfor %}
