@@ -1,9 +1,6 @@
 ---
 layout: page
-title: Blog posts
----
-
-### Blog posts
+title: Blog
 ---
 
 <!---------Loops through all posts---------------->

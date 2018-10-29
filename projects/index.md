@@ -3,9 +3,6 @@ layout: page
 title: Projects
 ---
 
-### Projects
----
-
 <ul id="projects" class="posts">
     <li>
     <a href="https://chrisoung1.github.io/uwave-android-app">
