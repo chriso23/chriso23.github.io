@@ -4,14 +4,14 @@ title: Blog
 ---
 
 <!---------Loops through all posts---------------->
-<ul class="posts">
+<ul class="list-inline">
   {% for post in site.posts %}
-    <li>
-     <a href="{{ post.url }}">
-        {{ post.title }}
-      </a>
-      <p><small class="date">Posted on {{ post.date | date: "%b %-d, %Y" }}</small></p>
-    </li>
-    <br/>
+  <li>
+    <p><small class="date">{{ post.date | date: "%b %-d, %Y" }}</small></p>
+  </li>
+  <li>
+    <a href="{{ post.url }}">{{ post.title }}</a>
+  </li>
+  <br/>
   {% endfor %}
 </ul>

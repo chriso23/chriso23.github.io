@@ -6,7 +6,7 @@ author: Chris Oung
 categories: UW
 ---
 
-There is a surprising divide in education over the role of voice-activated learning assistants in the classroom. The prevalence of modern AI technologies such as the Amazon Alexa and the Google Home is becoming widespread in many students’ homes; however, using these voice assistants as an EdTech tool at a university level suggests a different tale for the higher education space. 
+There is a surprising divide in education over the role of voice-activated learning assistants in the classroom. Modern AI technologies such as Amazon's Alexa and Google's Home are becoming widespread in many students’ homes; however, using these voice assistants as an EdTech tool at a university level suggests a different tale for the higher education space. 
 <!--more-->
 Critics of voice-activated AI devices raised some concerns over the privacy of students around the devices, and one of Amazon’s representative even went as far as to say that “[Amazon’s] voice assistant devices were not intended for the classroom[1].” In fact, both Google and Amazon similarly tell EdSurge that their voice assistant devices are primarily focused on providing exceptional smart home experiences. 
 
@@ -21,7 +21,7 @@ For more information, read the full article on [EdSurge](https://www.edsurge.com
 
 [1] Source: *[Do Voice Assistant Devices Have a Place in the Classroom](https://www.edsurge.com/news/2018-07-11-do-voice-assistant-devices-have-a-place-in-the-classroom)*
 
-[2] Source: *[Alexa’s role as the platform for educational goods will push Amazon into Educational services](https://medium.com/human-learning/alexa-amazons-trojan-horse-as-an-education-platform-8e284d7e3ca0)*
+[2] Source: *[Alexa’s role as the platform for educational goods](https://medium.com/human-learning/alexa-amazons-trojan-horse-as-an-education-platform-8e284d7e3ca0)*
 
 
 
