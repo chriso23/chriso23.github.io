@@ -1,8 +1,6 @@
-## Personal website
+## GitHub Pages: Personal website
 
-Site: [https://chrisoung1.github.io](https://chrisoung1.github.io)
-
-Creating and hosting a personal blog and portfolio website that directly on GitHub thanks to GitHub Pages. Writing maintainable, scalable, responsive, and cross-browser code to effectively showcase personal projects and professional achievements.
+Demo: [https://chrisoung1.github.io](https://chrisoung1.github.io)
 
 ## Installation
 
