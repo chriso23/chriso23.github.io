@@ -12,8 +12,8 @@ html {
 
 body {
 	background: $white;
-  font: 18px/1.4 $helvetica;
-  color: $darkGray;
+  font: 18px/1.4 $helveticaNeue;
+  color: $darkerGray;
 }
 
 .container {
@@ -23,9 +23,9 @@ body {
   width: 100%;
 }
 
-h1, h2, h3, h4, h5, h6, p, small {
+h1, h2, h3, h4, h5, h6 {
   font-family: $helveticaNeue;
-  color: $darkGray;
+  color: $darkerGray;
   line-height: 1.7;
   margin: 1em 0 1px;
   padding: 0;
@@ -60,15 +60,22 @@ h6 {
 }
 
 p {
-  font-size: 14px;
-  color:$gray;
+  font-family: $helveticaNeue;
+  font-size: 15px;
+  color: $darkGray;
+  line-height: 1.7;
+
+  @include mobile {
+    line-height: 1.7;
+  }
 }
 
 small {
+  font-family: $helveticaNeue;
   font-size: 12px;
-  color:$gray;
+  color:$darkGray;
+  
 }
-
 
 #pages ul.post {
   list-style-type:decimal;
@@ -85,8 +92,8 @@ main {
 
 main a {
   font-family: $helveticaNeue;
-  font-size: 14px;
-  font-weight: normal;
+  font-size: 15px;
+  font-weight: 400;
   color: $blue;
   margin: 1em 0 1px;
   padding: 0;
@@ -109,10 +116,10 @@ main a:active {
 ol {
   padding:0;
   margin:0;
+  line-height: 1.7;
 }
 
 ul.posts {
-  list-style-type: none;
   padding:0;
   margin:0;
 }
@@ -120,6 +127,7 @@ ul.posts {
 ul, ol {
   margin: 15px 0;
   padding-left: 20px;
+  line-height: 1.7;
 }
 
 ol {
@@ -192,19 +200,8 @@ hr {
   }
 }
 
-header.jumbotron {
-  h3 {
+h3.text-primary {
     line-height: 1.5;
-    font-weight: 400;
-  }
-  small {
-    line-height: 1.5;
-    color:$darkGray;
-  }
-  a {
-    line-height: 1.5;
-    color:$blue;
-  }
 }
 
 .site-avatar {
@@ -280,6 +277,7 @@ header.jumbotron {
 
    nav.nav a {
     color:$blue;
+    font-weight:400;
     margin-left: 25px;
     
     @include mobile {
@@ -383,4 +381,9 @@ blockquote, q {
 sup { 
   vertical-align: super;
   font-size: smaller;
+}
+
+pre {
+  border:none;
+  background:$lightGray;
 }

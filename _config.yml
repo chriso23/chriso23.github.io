@@ -23,8 +23,6 @@ url: https://chrisoung1.github.io
 
 baseurl: ""
 
-theme: minima
-
 excerpt_separator: <!--more-->
 
 permalink: /:title/
@@ -36,16 +34,17 @@ kramdown:
 
   syntax_highlighter: rouge
   syntax_highlighter_opts:
-    css_class: 'highlight'
+    css_class: 'highlights'
 
 
 sass:
   style: :expanded 
 
+theme: minima
 
 plugins:
-  - jekyll-sitemap 
-  - jekyll-feed
+ - jekyll-sitemap 
+ - jekyll-feed
 
 
 exclude:
