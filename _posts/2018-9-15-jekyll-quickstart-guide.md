@@ -19,14 +19,14 @@ to look, what data gets displayed in the layout, and more.
 gem install jekyll bundler
 ```
 
-3. Create a new Jekyll site at `./myblog`
+3. Create a new Jekyll site at `./blog`
 ```
-jekyll new myblog
+jekyll new blog
 ```
 
-4. Change into your new directory
+4. Go to your site’s directory
 ```
-cd myblog
+cd blog
 ```
 
 5. Build the site and make it available on a local server
@@ -35,12 +35,6 @@ bundle exec jekyll serve
 ```
 
 6. Now browse to [http://localhost:4000](http://localhost:4000){:target="_blank"}
-
-
-If you encounter any unexpected errors during the above, please refer to the
-[troubleshooting](/docs/troubleshooting/#configuration-problems) page or the
-already-mentioned [requirements](/docs/installation/#requirements) page, as
-you might be missing development headers or other prerequisites.
 
 
 <br/>
