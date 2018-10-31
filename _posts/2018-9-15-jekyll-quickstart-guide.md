@@ -5,10 +5,8 @@ date: 2018-9-15
 author: Chris Oung
 ---
 
-Jekyll is a simple, extendable, static site generator. You give it text written
-in your favorite markup language and it churns through layouts to create a
-static website. Throughout that process you can tweak how you want the site URLs
-to look, what data gets displayed in the layout, and more.
+Jekyll is one of the most popular [static site generators](https://www.staticgen.com) used today. Static site generators are database-free websites that populate all the pages with content locally before you publish the files on your web server. Jekyll is open source, free, easy to use, and extremely flexible.
+
 
 ## Instructions
 
