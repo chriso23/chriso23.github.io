@@ -1,12 +1,14 @@
-## GitHub Pages: Personal website and blog
-
-Demo: [https://chrisoung1.github.io](https://chrisoung1.github.io)
-
-## About
+## GitHub Pages: Jekyll website
 
 Creating and hosting a personal blog and portfolio website directly on GitHub thanks to GitHub Pages. Writing maintainable, scalable, responsive, and cross-browser code to effectively showcase personal projects and achievements.
 
-## Installation Guide
+**Demo:** [https://chrisoung1.github.io](https://chrisoung1.github.io)
+
+## Getting Started
+
+*Coming soon*
+
+## Installation
 
 *Coming soon*
 
