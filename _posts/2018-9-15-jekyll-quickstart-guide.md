@@ -13,21 +13,25 @@ Jekyll is one of the most popular [static site generators](https://www.staticgen
 1. Install a full [Ruby development environment](/docs/installation/)
 
 2. Install Jekyll and [bundler](/docs/ruby-101/#bundler) [gems](/docs/ruby-101/#gems)
+
 ```
 gem install jekyll bundler
 ```
 
 3. Create a new Jekyll site at `./blog`
+
 ```
 jekyll new blog
 ```
 
 4. Go to your site’s directory
+
 ```
 cd blog
 ```
 
 5. Build the site and make it available on a local server
+
 ```
 bundle exec jekyll serve
 ```
