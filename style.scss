@@ -77,12 +77,8 @@ small {
   
 }
 
-#pages ul.post {
-  list-style-type:decimal;
-}
-
-#projects ul.post {
-  list-style-type:none;
+#pages ul {
+  list-style-type:square;
 }
 
 main {
@@ -138,9 +134,6 @@ ol ul, ul ol, ul ul, ol ol {
   margin: 0;
 }
 
-ul ul, ol ul {
-  list-style-type: circle;
-}
 
 em, i {
   font-style: italic;
