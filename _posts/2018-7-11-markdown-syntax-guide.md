@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "GitHub Flavored Markdown: Basic Syntax Guide"
-date: 2018-9-15
+date: 2018-7-11
 author: Chris Oung
 ---
 
