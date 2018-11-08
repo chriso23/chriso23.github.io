@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Getting Started with Git"
-date: 2018-8-15
+date: 2018-9-15
 categories: Guides
 ---
 
