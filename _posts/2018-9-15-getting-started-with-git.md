@@ -5,19 +5,19 @@ date: 2018-9-15
 categories: Guides
 ---
 
+### About this guide
+---
+
+This document aims to help beginners leαrn the bαsic functionality of the Git version control system.
+
+<br/>
+
 ### What is Git? 
 ---
 
 Git is a [free and open source](https://git-scm.com/about/free-and-open-source) distributed version control system. A version control system, or VCS, tracks the history of changes as people and teams collaborate on projects together. As the project evolves, teams can run tests, fix bugs, and contribute new code with the confidence that any previous version can be recovered at any time[1]. 
 
 In brief, Git lets developers see the entire timeline of their changes, decisions, and progression of any project in one place.
-
-<br/>
-
-### About this guide
----
-
-This document aims to help beginners leαrn the bαsic functionality of the Git version control system.
 
 <br/>
 
