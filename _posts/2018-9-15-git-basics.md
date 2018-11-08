@@ -5,12 +5,14 @@ date: 2018-9-15
 categories: Guides
 ---
 
-## What is Git? 
+### What is Git? 
 ---
 
-Git is a free and open source distributed version control system designed to handle everything from small to huge projects with speed and efficiency[1].
+Git is a [free and open source](https://git-scm.com/about/free-and-open-source) distributed version control system. A version control system, or VCS, tracks the history of changes as people and teams collaborate on projects together. As the project evolves, teams can run tests, fix bugs, and contribute new code with the confidence that any version can be recovered at any time[1]. 
 
-Using Git is similar to working with a regular software project. You’re still writing code in files and storing those files in folders. The main difference, however, is that you have access to a plethora of Git commands to manipulate those files.
+In brief, Git lets developers see the entire timeline of their changes, decisions, and progression of any project in one place.
+
+This document aims to help beginners leαrn the bαsic functionαlity of Git version control system.
 
 <br/>
 
