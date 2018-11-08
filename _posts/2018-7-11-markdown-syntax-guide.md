@@ -5,6 +5,23 @@ date: 2018-7-11
 author: Chris Oung
 ---
 
+### Table of Contents
+---
+
+1. [Introduction](#introduction)
+2. [Headings](#headings)
+3. [Emphasis](#emphasis)
+4. [Lists](#lists)
+5. [Images](#images)
+6. [Links](#links)
+7. [Code Blocks](#code-blocks)
+8. [Blockquotes](#blockquotes)
+9. [References](#references)
+
+<br/>
+
+### Introduction <a name="introduction"></a>
+---
 
 Markdown is a lightweight and easy-to-use syntax for styling all forms of writing on the GitHub platform[1].
 
@@ -12,8 +29,9 @@ This document contains a basic overview of the markdown syntax. Use this documen
 
 For more advanced information about the markdown syntax, see ["About Writing and Formatting on GitHub"](https://help.github.com/articles/about-writing-and-formatting-on-github/).
 
+<br/>
 
-### Headings
+### Headings <a name="headings"></a>
 ---
 
 To create a heading, add one to six # symbols before your heading text. The number of # you use will determine the size of the heading[2].
@@ -44,7 +62,7 @@ For example, to create a heading level three (<h3>), use three number signs (e.g
 
 <br/>
 
-### Emphasis
+### Emphasis <a name="emphasis"></a>
 ---
 
 With markdown, you can add emphasis by making text bold or italic[2].
@@ -76,7 +94,7 @@ __This will also be bold__
 
 <br/>
 
-### Lists
+### Lists <a name="lists"></a>
 ---
 
 You can organize items into ordered and unordered lists.
@@ -132,7 +150,7 @@ You can organize items into ordered and unordered lists.
 
 <br/>
 
-### Images
+### Images <a name="images"></a>
 ---
 
 <small>Markdown input:</small>
@@ -149,7 +167,7 @@ You can organize items into ordered and unordered lists.
 
 <br/>
 
-### Links
+### Links <a name="links"></a>
 ---
 <small>Markdown input:</small>
 
@@ -164,7 +182,7 @@ You can organize items into ordered and unordered lists.
 ```
 <br/>
 
-### Code Blocks
+### Code Blocks <a name="code-blocks"></a>
 ---
 
 To create code blocks, indent every line of the block by at least four spaces or one
@@ -194,7 +212,7 @@ tab.
 
 <br/>
 
-### Blockquote
+### Blockquote <a name="blockquotes"></a>
 ---
 
 To create a blockquote, add a `>` in front of a paragraph.
@@ -208,13 +226,13 @@ To create a blockquote, add a `>` in front of a paragraph.
 <small>HTML output:</small>
 
 ```raw
-<blockquote>This is a blockquote.</blockquote>
+<blockquote>This is a blockquote</blockquote>
 ```
 
 <br/>
 
 
-#### References
+#### References <a name="references"></a>
 ---
 
 [1]  Source:  _["About Writing and Formatting on GitHub"](https://help.github.com/articles/about-writing-and-formatting-on-github/)_
