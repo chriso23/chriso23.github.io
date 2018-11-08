@@ -12,7 +12,12 @@ Git is a [free and open source](https://git-scm.com/about/free-and-open-source) 
 
 In brief, Git lets developers see the entire timeline of their changes, decisions, and progression of any project in one place.
 
-This document aims to help beginners leαrn the bαsic functionαlity of Git version control system.
+<br/>
+
+### About this guide
+---
+
+This document aims to help beginners leαrn the bαsic functionality of the Git version control system.
 
 <br/>
 
