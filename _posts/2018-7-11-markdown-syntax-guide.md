@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "GitHub Flavored Markdown: Syntax Guide"
+title: "GitHub Flavored Markdown: Basic Syntax Guide"
 date: 2018-9-15
 author: Chris Oung
 ---
@@ -9,13 +9,13 @@ Markdown is a lightweight and easy-to-use syntax for styling all forms of writin
 
 This document contains a basic overview of the markdown syntax. Use this document as a reference guide for documenting projects on the [GitHub](https://github.com) platform. 
 
-For more advanced information about the markdown syntax, see ["About Writing and Formatting on GitHub."](https://help.github.com/articles/about-writing-and-formatting-on-github/)
+For more advanced information about the markdown syntax, see ["About Writing and Formatting on GitHub"](https://help.github.com/articles/about-writing-and-formatting-on-github/).
 
 
 ### Headings
 ---
 
-TTo create a heading, add one to six # symbols before your heading text. The number of # you use will determine the size of the heading[2].
+To create a heading, add one to six # symbols before your heading text. The number of # you use will determine the size of the heading[2].
 
 For example, to create a heading level three (<h3>), use three number signs (e.g., ### My Header).
 
