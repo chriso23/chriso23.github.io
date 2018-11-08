@@ -23,7 +23,7 @@ author: Chris Oung
 ### Introduction <a name="introduction"></a>
 ---
 
-Markdown is a lightweight and easy-to-use syntax for styling all forms of writing on the GitHub platform[1].
+Markdown is a lightweight and easy-to-use syntax for styling all forms of writing on the GitHub platform.[1]
 
 This document contains a basic overview of the markdown syntax. Use this document as a reference guide for documenting projects on the [GitHub](https://github.com) platform. 
 
@@ -34,7 +34,7 @@ For more advanced information about the markdown syntax, see ["About Writing and
 ### Headings <a name="headings"></a>
 ---
 
-To create a heading, add one to six # symbols before your heading text. The number of # you use will determine the size of the heading[2].
+To create a heading, add one to six # symbols before your heading text. The number of # you use will determine the size of the heading.[2]
 
 For example, to create a heading level three (<h3>), use three number signs (e.g., ### My Header).
 
@@ -65,7 +65,7 @@ For example, to create a heading level three (<h3>), use three number signs (e.g
 ### Emphasis <a name="emphasis"></a>
 ---
 
-With markdown, you can add emphasis by making text bold or italic[2].
+With markdown, you can add emphasis by making text bold or italic.[2]
 
 To bold text, add two asterisks or underscores before and after a word or phrase. To
 bold the middle of a word for emphasis, add two asterisks without spaces around the
