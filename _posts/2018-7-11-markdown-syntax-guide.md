@@ -207,7 +207,7 @@ To create a blockquote, add a `>` in front of a paragraph.
 <small>HTML output:</small>
 
 ```raw
-<blockquote>This is a blockquote</blockquote>
+<blockquote>This is a blockquote.</blockquote>
 ```
 
 <br/>
