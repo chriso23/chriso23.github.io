@@ -20,7 +20,7 @@ Using Git is similar to working with a regular software project. You’re still 
 These commands can be executed directly from the command line or through an application like [GitHub Desktop](https://desktop.github.com/). 
 
 
-**Here are some of the common Git commands:**
+**Here is a list of common Git commands:**
 
 
 `git init` initializes a brand new Git repository and begins tracking an existing directory. It adds a hidden subfolder within the existing directory that houses the internal data structure required for version control.
@@ -50,6 +50,8 @@ git branch shows the branches being worked on locally.
 <br/>
 
 `git push` updates the remote repository with any commits made locally to a branch.
+
+<br/>
 
 #### References
 ---
