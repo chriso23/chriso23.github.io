@@ -85,8 +85,8 @@ __This will also be bold__
 <small>HTML output:</small>
 
 ```raw
-<em>This will be italics</em>
-<em>This will also be italics</em>
+<em>This will be italic</em>
+<em>This will also be italic</em>
 
 <strong>This will be bold</strong>
 <strong>This will also be bold</strong>
