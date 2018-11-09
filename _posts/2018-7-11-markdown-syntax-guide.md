@@ -67,9 +67,7 @@ For example, to create a heading level three (<h3>), use three number signs (e.g
 
 With markdown, you can add emphasis by making text bold or italic.[2]
 
-To bold text, add two asterisks or underscores before and after a word or phrase. To
-bold the middle of a word for emphasis, add two asterisks without spaces around the
-letters.
+To bold text, add two asterisks or underscores before and after a word or phrase. 
 
 <small>Markdown input:</small>
 
