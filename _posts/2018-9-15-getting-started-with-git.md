@@ -58,6 +58,8 @@ git branch shows the branches being worked on locally.
 
 `git push` updates the remote repository with any commits made locally to a branch.
 
+Thanks for reading! 
+
 <br/>
 
 #### References
