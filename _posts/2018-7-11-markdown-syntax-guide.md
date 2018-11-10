@@ -139,9 +139,10 @@ You can organize items into ordered and unordered lists.
 <ol>
 <li>Item 1</li>
 <li>Item 2</li>
+<li>Item 3</li>
 <ol>
-<li>Item 2a</li>
-<li>Item 2b</li>
+<li>Item 3a</li>
+<li>Item 3b</li>
 </ol>
 </ol>
 ```
