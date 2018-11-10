@@ -52,7 +52,7 @@ For example, to create a heading level three (<h3>), use three number signs (e.g
 <small>HTML output:</small>
 
 ```raw
-<h1>This is an h1 tag </h1>
+<h1>This is an h1 tag</h1>
 <h2>This is an h2 tag</h2>
 <h3>This is an h3 tag</h3>
 <h4>This is an h4 tag</h4>
