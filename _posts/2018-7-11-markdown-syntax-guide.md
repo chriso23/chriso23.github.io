@@ -23,9 +23,9 @@ author: Chris Oung
 ### Introduction <a name="introduction"></a>
 ---
 
-Markdown is a lightweight and easy-to-use syntax for styling all forms of writing on the GitHub platform.[1]
+Markdown is a lightweight and easy-to-use syntax for styling all forms of writing on the [GitHub](https://github.com) platform.[1]
 
-This document contains a basic overview of the markdown syntax. Use this document as a reference guide for documenting projects on the [GitHub](https://github.com) platform. 
+This document contains a basic overview of the markdown syntax. Use this document as a reference guide for documenting projects on the GitHub platform. 
 
 For more advanced information about the markdown syntax, see [About Writing and Formatting on GitHub](https://help.github.com/articles/about-writing-and-formatting-on-github/).
 
