@@ -26,12 +26,12 @@ body {
 h1, h2, h3, h4, h5, h6 {
   font-family: $helveticaNeue;
   color: $darkerGray;
-  line-height: 1.7;
+  line-height: 1.5;
   margin: 1em 0 1px;
   padding: 0;
 
   @include mobile {
-    line-height: 1.7;
+    line-height: 1.2;
   }
 }
 
