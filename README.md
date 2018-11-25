@@ -5,7 +5,7 @@
 
 **Demo:** [https://chrisoung1.github.io](https://chrisoung1.github.io)
 
-Creating and hosting a personal blog and portfolio website directly on GitHub thanks to GitHub Pages. Writing maintainable, scalable, responsive, and cross-browser code to effectively showcase personal projects and blog posts. 
+Creating and hosting a personal blog and portfolio website directly on GitHub thanks to GitHub Pages. 
 
 ## Installation guide
 
