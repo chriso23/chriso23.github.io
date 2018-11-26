@@ -1,9 +1,9 @@
 
 ## GitHub Pages: Personal website
 
-[![Jekyll website](https://github.com/chrisoung1/chrisoung1.github.io/blob/master/images/jekyll-website.png)](https://chrisoung1.github.io)
+[![Jekyll website](https://github.com/chrisoung1/chrisoung.github.io/blob/master/images/jekyll-website.png)](https://chrisoung.github.io)
 
-**Demo:** [https://chrisoung1.github.io](https://chrisoung1.github.io)
+**Demo:** [https://chrisoung.github.io](https://chrisoung.github.io)
 
 Creating and hosting a personal blog and portfolio website directly on GitHub thanks to GitHub Pages. 
 
