@@ -1,7 +1,7 @@
 
 ## GitHub Pages: Personal website
 
-[![Jekyll website](https://github.com/chrisoung1/chrisoung.github.io/blob/master/images/jekyll-website.png)](https://chrisoung.github.io)
+[![Jekyll website](https://github.com/chrisoung/chrisoung.github.io/blob/master/images/jekyll-website.png)](https://chrisoung.github.io)
 
 **Demo:** [https://chrisoung.github.io](https://chrisoung.github.io)
 
