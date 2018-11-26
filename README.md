@@ -13,5 +13,5 @@ Creating and hosting a personal blog and portfolio website directly on GitHub th
 
 ## License
 
-The contents of this website are under the terms of the [MIT License](https://github.com/chrisoung1/chrisoung1.github.io/blob/master/LICENSE).
+The contents of this website are under the terms of the [MIT License](https://github.com/chrisoung/chrisoung.github.io/blob/master/LICENSE).
 
