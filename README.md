@@ -1,5 +1,4 @@
-
-## GitHub Pages: Personal website
+## Personal Website and Blog
 
 Creating and hosting a personal website and blog directly on GitHub thanks to GitHub Pages. 
 
