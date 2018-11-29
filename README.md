@@ -1,13 +1,9 @@
 
 ## GitHub Pages: Personal website
 
-**Live site:** [https://chrisoung.github.io](https://chrisoung.github.io)
+Creating and hosting a personal website and blog directly on GitHub thanks to GitHub Pages. 
 
-Creating and hosting a personal blog and portfolio website directly on GitHub thanks to GitHub Pages. 
-
-## Installation guide
-
-*Coming soon*
+**[Live site](https://chrisoung.github.io)**
 
 ## License
 
