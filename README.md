@@ -1,5 +1,5 @@
 
-## GitHub Pages: Personal website
+# GitHub Pages: Personal website
 
 [![Jekyll website](https://github.com/chrisoung/chrisoung.github.io/blob/master/images/jekyll-website.png)](https://chrisoung.github.io)
 
