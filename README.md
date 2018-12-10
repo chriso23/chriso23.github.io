@@ -6,5 +6,5 @@ Creating and hosting a personal website and blog directly on GitHub thanks to Gi
 
 ## License
 
-The contents of this website are under the terms of the [MIT License](https://github.com/chrisoung/chrisoung.github.io/blob/master/LICENSE).
+[MIT License](https://github.com/chrisoung/chrisoung.github.io/blob/master/LICENSE)
 
