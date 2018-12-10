@@ -1,10 +1,10 @@
-## Personal Website
+[chrisoung.github.io]()
+---------------------
 
-Creating and hosting a personal website and blog directly on GitHub thanks to GitHub Pages. 
+A personal website and blog hosted directly on GitHub thanks to GitHub Pages. 
 
-**[Live site](https://chrisoung.github.io)**
 
-## License
+### License
 
 [MIT License](https://github.com/chrisoung/chrisoung.github.io/blob/master/LICENSE)
 
