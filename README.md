@@ -1,8 +1,7 @@
 [chrisoung.github.io]()
 ---------------------
 
-A personal website and blog hosted directly on GitHub thanks to GitHub Pages. 
-
+A personal website and blog that is powered by [Jekyll](https://jekyllrb.com/) and hosted directly on [GitHub](https://github.com) thanks to [GitHub Pages](https://pages.github.com). 
 
 License
 -------
