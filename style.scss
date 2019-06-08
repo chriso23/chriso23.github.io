@@ -115,18 +115,18 @@ main a:active {
 }
 
 ol {
-  padding:0;
+  padding:10px;
   margin:0;
   line-height: 1.7;
 }
 
 ul.posts {
-  padding:0;
+  padding:10px;
   margin:0;
 }
 
 ul, ol {
-  margin: 15px 0;
+  margin: 10px 0;
   padding-left: 20px;
   line-height: 1.7;
 }
@@ -136,6 +136,7 @@ ol {
 }
 
 ol ul, ul ol, ul ul, ol ol {
+  padding:10px;
   margin: 0;
 }
 
@@ -228,11 +229,9 @@ h3.text-primary {
     }
   
     .site-name {
-      margin-top:20px;
+      margin-top:15px;
       font-family: $helveticaNeue;
       font-weight: 500;
-      font-size:18px;
-
     a {
       color: $darkGray;
     }
@@ -244,7 +243,7 @@ h3.text-primary {
   }
 
     .site-description {
-      margin: -5px auto;
+      margin: -7px 0;
       color: $darkGray;
       font-size: 12px;
       font-family: $helvetica;
@@ -258,7 +257,7 @@ h3.text-primary {
 
 .main-nav {
   float: right;
-  margin-top: 20px;
+  margin-top: 15px;
   font-size: 15px;
   font-weight:normal;
   text-align:right;
@@ -266,7 +265,7 @@ h3.text-primary {
 
   @include mobile {
     float: none;
-    margin-top: 20px;
+    margin-top: 15px;
     display: block;
     font-size: 15px;
     text-align: center;
@@ -343,7 +342,8 @@ h3.text-primary {
 }
 
 .wrapper-footer {
-  padding:0px 0;
+  margin-top:-15px;
+  padding:0px 0px;
   background-color: $white;
 
 }
