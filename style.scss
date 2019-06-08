@@ -229,7 +229,7 @@ h3.text-primary {
     }
   
     .site-name {
-      margin-top:15px;
+      margin-top:20px;
       font-family: $helveticaNeue;
       font-weight: 500;
     a {
@@ -257,7 +257,7 @@ h3.text-primary {
 
 .main-nav {
   float: right;
-  margin-top: 15px;
+  margin-top: 20px;
   font-size: 15px;
   font-weight:normal;
   text-align:right;
@@ -265,7 +265,7 @@ h3.text-primary {
 
   @include mobile {
     float: none;
-    margin-top: 15px;
+    margin-top: 20px;
     display: block;
     font-size: 15px;
     text-align: center;
