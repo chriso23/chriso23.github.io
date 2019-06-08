@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Blog
+title: Latest Posts
 ---
 
 <!---------Loops through all posts---------------->
@@ -8,14 +8,14 @@ title: Blog
   {% for post in site.posts %}
   <li>
     <div class="row">
-      <div class="col-md-3">
-      <small class="date">Posted: {{ post.date | date: "%b %-d, %Y" }}</small>
+      <div class="col-sm-3 col-md-3 col-lg-3">
+      <p class="date">Posted: {{ post.date | date: "%b %-d, %Y" }}</p>
       </div> 
-      <div class="col-md-9">
+      <div class="col-sm-9 col-md-9 col-lg-9">
       <a href="{{ post.url }}">{{ post.title }}</a>
       </div>
     </div>
   </li>
-  <br/>
+  <hr/>
   {% endfor %}
 </ul>

@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.4">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-06-08T06:15:05-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">CHRISTOPHER OUNG</title><subtitle>Technical Writer | Software Developer</subtitle><author><name>Chris Oung</name></author><entry><title type="html">Getting Started with Git</title><link href="http://localhost:4000/getting-started-with-git/" rel="alternate" type="text/html" title="Getting Started with Git" /><published>2018-09-15T00:00:00-07:00</published><updated>2018-09-15T00:00:00-07:00</updated><id>http://localhost:4000/getting-started-with-git</id><content type="html" xml:base="http://localhost:4000/getting-started-with-git/">&lt;h3 id=&quot;about-this-guide&quot;&gt;About this guide&lt;/h3&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;This document aims to help beginners learn the basic functionality of the Git version control system.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;what-is-git&quot;&gt;What is Git?&lt;/h3&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;Git is a &lt;a href=&quot;https://git-scm.com/about/free-and-open-source&quot;&gt;free and open source&lt;/a&gt; software that is best known as a version control system. A version control system, or VCS, is a tool that tracks the history of changes of a file or set of files. This is particulary useful when teams collaborate on a project together. As the project evolves, teams can run tests, fix bugs, and contribute new code with the confidence of knowing that any previous version can be recovered at any time.[1]&lt;/p&gt;
+
+&lt;p&gt;In brief, Git is a tool that lets developers see the entire timeline of their changes, decisions, and progression of any project in one place.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;basic-git-commands&quot;&gt;Basic Git commands&lt;/h3&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;These commands can be executed directly from the command line or through an application like &lt;a href=&quot;https://desktop.github.com/&quot;&gt;GitHub Desktop&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Here is a list of common Git commands:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;git init&lt;/code&gt; initializes a brand new Git repository and begins tracking an existing directory. It adds a hidden subfolder within the existing directory that houses the internal data structure required for version control.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;git clone&lt;/code&gt; creates a local copy of a project that already exists remotely. The clone includes all the project’s files, history, and branches.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;git commit&lt;/code&gt; saves the snapshot to the project history and completes the change-tracking process. In short, a commit functions like taking a photo. Anything that’s been staged with git add will become a part of the snapshot with git commit.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;git status&lt;/code&gt; shows the status of changes as untracked, modified, or staged.
+git branch shows the branches being worked on locally.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;git merge&lt;/code&gt; merges lines of development together. This command is typically used to combine changes made on two distinct branches. For example, a developer would merge when they want to combine changes from a feature branch into the master branch for deployment.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;git pull&lt;/code&gt; updates the local line of development with updates from its remote counterpart. Developers use this command if a teammate has made commits to a branch on a remote, and they would like to reflect those changes in their local environment.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;git push&lt;/code&gt; updates the remote repository with any commits made locally to a branch.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;references&quot;&gt;References&lt;/h4&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;[1] Source: &lt;em&gt;&lt;a href=&quot;https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control&quot;&gt;“Getting Started - About Version Control”&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;</content><author><name>Chris Oung</name></author><summary type="html">About this guide This document aims to help beginners learn the basic functionality of the Git version control system. What is Git? Git is a free and open source software that is best known as a version control system. A version control system, or VCS, is a tool that tracks the history of changes of a file or set of files. This is particulary useful when teams collaborate on a project together. As the project evolves, teams can run tests, fix bugs, and contribute new code with the confidence of knowing that any previous version can be recovered at any time.[1] In brief, Git is a tool that lets developers see the entire timeline of their changes, decisions, and progression of any project in one place. Basic Git commands These commands can be executed directly from the command line or through an application like GitHub Desktop. Here is a list of common Git commands: git init initializes a brand new Git repository and begins tracking an existing directory. It adds a hidden subfolder within the existing directory that houses the internal data structure required for version control. git clone creates a local copy of a project that already exists remotely. The clone includes all the project’s files, history, and branches. git commit saves the snapshot to the project history and completes the change-tracking process. In short, a commit functions like taking a photo. Anything that’s been staged with git add will become a part of the snapshot with git commit. git status shows the status of changes as untracked, modified, or staged. git branch shows the branches being worked on locally. git merge merges lines of development together. This command is typically used to combine changes made on two distinct branches. For example, a developer would merge when they want to combine changes from a feature branch into the master branch for deployment. git pull updates the local line of development with updates from its remote counterpart. Developers use this command if a teammate has made commits to a branch on a remote, and they would like to reflect those changes in their local environment. git push updates the remote repository with any commits made locally to a branch. References [1] Source: “Getting Started - About Version Control”</summary></entry><entry><title type="html">GitHub Flavored Markdown: Basic Syntax Guide</title><link href="http://localhost:4000/markdown-syntax-guide/" rel="alternate" type="text/html" title="GitHub Flavored Markdown: Basic Syntax Guide" /><published>2018-07-11T00:00:00-07:00</published><updated>2018-07-11T00:00:00-07:00</updated><id>http://localhost:4000/markdown-syntax-guide</id><content type="html" xml:base="http://localhost:4000/markdown-syntax-guide/">&lt;h3 id=&quot;table-of-contents&quot;&gt;Table of Contents&lt;/h3&gt;
+&lt;hr /&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;#introduction&quot;&gt;Introduction&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#headings&quot;&gt;Headings&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#emphasis&quot;&gt;Emphasis&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#lists&quot;&gt;Lists&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#images&quot;&gt;Images&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#links&quot;&gt;Links&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#code-blocks&quot;&gt;Code Blocks&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#blockquotes&quot;&gt;Blockquotes&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#references&quot;&gt;References&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;introduction-&quot;&gt;Introduction &lt;a name=&quot;introduction&quot;&gt;&lt;/a&gt;&lt;/h3&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;Markdown is a lightweight and an easy-to-use syntax for styling all forms of writing on the &lt;a href=&quot;https://github.com&quot;&gt;GitHub&lt;/a&gt; platform.[1] This document contains a basic overview of the markdown syntax. Use this document as a reference guide for documenting projects on the GitHub platform.&lt;/p&gt;
+
+&lt;p&gt;For more advanced information about the markdown syntax, see &lt;a href=&quot;https://help.github.com/articles/about-writing-and-formatting-on-github/&quot;&gt;About Writing and Formatting on GitHub&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;headings-&quot;&gt;Headings &lt;a name=&quot;headings&quot;&gt;&lt;/a&gt;&lt;/h3&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;To create a heading, add one to six # symbols before your heading text. The number of # you use will determine the size of the heading.[2]&lt;/p&gt;
+
+&lt;p&gt;For example, to create a heading level three (&amp;lt;h3&amp;gt;), use three number signs (e.g., ### My Header).&lt;/p&gt;
+
+&lt;p&gt;&lt;small&gt;Markdown input:&lt;/small&gt;&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlights&quot;&gt;&lt;code&gt;# This is an h1 tag
+## This is an h2 tag
+### This is an h3 tag
+#### This is an h4 tag
+##### This is an h5 tag
+###### This is an h6 tag
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;small&gt;HTML output:&lt;/small&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-raw&quot;&gt;&amp;lt;h1&amp;gt;This is an h1 tag&amp;lt;/h1&amp;gt;
+&amp;lt;h2&amp;gt;This is an h2 tag&amp;lt;/h2&amp;gt;
+&amp;lt;h3&amp;gt;This is an h3 tag&amp;lt;/h3&amp;gt;
+&amp;lt;h4&amp;gt;This is an h4 tag&amp;lt;/h4&amp;gt;
+&amp;lt;h5&amp;gt;This is an h5 tag&amp;lt;/h5&amp;gt;
+&amp;lt;h6&amp;gt;This is an h6 tag&amp;lt;/h6&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;emphasis-&quot;&gt;Emphasis &lt;a name=&quot;emphasis&quot;&gt;&lt;/a&gt;&lt;/h3&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;With markdown, you can add emphasis by making text bold or italic.[2]&lt;/p&gt;
+
+&lt;p&gt;To bold text, add two asterisks or underscores before and after a word or phrase.&lt;/p&gt;
+
+&lt;p&gt;&lt;small&gt;Markdown input:&lt;/small&gt;&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlights&quot;&gt;&lt;code&gt;*This text will be italic*
+_This will also be italic_
+
+**This text will be bold**
+__This will also be bold__
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;small&gt;HTML output:&lt;/small&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-raw&quot;&gt;&amp;lt;em&amp;gt;This will be italic&amp;lt;/em&amp;gt;
+&amp;lt;em&amp;gt;This will also be italic&amp;lt;/em&amp;gt;
+
+&amp;lt;strong&amp;gt;This will be bold&amp;lt;/strong&amp;gt;
+&amp;lt;strong&amp;gt;This will also be bold&amp;lt;/strong&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;lists-&quot;&gt;Lists &lt;a name=&quot;lists&quot;&gt;&lt;/a&gt;&lt;/h3&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;You can organize items into ordered and unordered lists.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Unordered list&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;small&gt;Markdown input:&lt;/small&gt;&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlights&quot;&gt;&lt;code&gt;* Item 1
+* Item 2
+  * Item 2a
+  * Item 2b
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;&lt;small&gt;HTML output:&lt;/small&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-raw&quot;&gt;&amp;lt;ul&amp;gt;
+&amp;lt;li&amp;gt;Item 1&amp;lt;/li&amp;gt;
+&amp;lt;li&amp;gt;Item 2&amp;lt;/li&amp;gt;
+&amp;lt;ul&amp;gt;
+&amp;lt;li&amp;gt;Item 2a&amp;lt;/li&amp;gt;
+&amp;lt;li&amp;gt;Item 2b&amp;lt;/li&amp;gt;
+&amp;lt;/ul&amp;gt;
+&amp;lt;/ul&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Ordered list&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;small&gt;Markdown input:&lt;/small&gt;&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlights&quot;&gt;&lt;code&gt;1. Item 1
+2. Item 2
+3. Item 3
+   3.1. Item 3a
+   3.2. Item 3b
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;small&gt;HTML output:&lt;/small&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-raw&quot;&gt;&amp;lt;ol&amp;gt;
+&amp;lt;li&amp;gt;Item 1&amp;lt;/li&amp;gt;
+&amp;lt;li&amp;gt;Item 2&amp;lt;/li&amp;gt;
+&amp;lt;li&amp;gt;Item 3&amp;lt;/li&amp;gt;
+&amp;lt;ol&amp;gt;
+&amp;lt;li&amp;gt;Item 3a&amp;lt;/li&amp;gt;
+&amp;lt;li&amp;gt;Item 3b&amp;lt;/li&amp;gt;
+&amp;lt;/ol&amp;gt;
+&amp;lt;/ol&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;images-&quot;&gt;Images &lt;a name=&quot;images&quot;&gt;&lt;/a&gt;&lt;/h3&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;small&gt;Markdown input:&lt;/small&gt;&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlights&quot;&gt;&lt;code&gt;![GitHub Logo](/images/logo.png)
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;small&gt;HTML output:&lt;/small&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-raw&quot;&gt;&amp;lt;img src=&quot;/images/logo.png&quot; alt=&quot;GitHub Logo&quot;/&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;links-&quot;&gt;Links &lt;a name=&quot;links&quot;&gt;&lt;/a&gt;&lt;/h3&gt;
+&lt;hr /&gt;
+&lt;p&gt;&lt;small&gt;Markdown input:&lt;/small&gt;&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlights&quot;&gt;&lt;code&gt;[GitHub](http://github.com)
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;small&gt;HTML output:&lt;/small&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-raw&quot;&gt;&amp;lt;a href=&quot;http://github.com&quot;&amp;gt;GitHub&amp;lt;/a&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;code-blocks-&quot;&gt;Code Blocks &lt;a name=&quot;code-blocks&quot;&gt;&lt;/a&gt;&lt;/h3&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;To create code blocks, indent every line of the block by at least four spaces or one
+tab.&lt;/p&gt;
+
+&lt;p&gt;&lt;small&gt;Markdown input:&lt;/small&gt;&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlights&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;html&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;head&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;/head&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/html&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;small&gt;HTML output:&lt;/small&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-raw&quot;&gt;&amp;lt;pre&amp;gt;
+  &amp;lt;code&amp;gt;
+    &amp;amp;lt;html&amp;amp;gt;
+    &amp;amp;lt;head&amp;amp;gt;
+    &amp;amp;lt;/head&amp;amp;gt;
+    &amp;amp;lt;/html&amp;amp;gt;
+  &amp;lt;/code&amp;gt;
+&amp;lt;/pre&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;blockquote-&quot;&gt;Blockquote &lt;a name=&quot;blockquotes&quot;&gt;&lt;/a&gt;&lt;/h3&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;To create a blockquote, add a &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;gt;&lt;/code&gt; in front of a paragraph.&lt;/p&gt;
+
+&lt;p&gt;&lt;small&gt;Markdown input:&lt;/small&gt;&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlights&quot;&gt;&lt;code&gt;&amp;gt; This is a blockquote.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;small&gt;HTML output:&lt;/small&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-raw&quot;&gt;&amp;lt;blockquote&amp;gt;This is a blockquote&amp;lt;/blockquote&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;references-&quot;&gt;References &lt;a name=&quot;references&quot;&gt;&lt;/a&gt;&lt;/h4&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;[1]  Source:  &lt;em&gt;&lt;a href=&quot;https://help.github.com/articles/about-writing-and-formatting-on-github/&quot;&gt;“About Writing and Formatting on GitHub”&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;[2]  Source: &lt;em&gt;&lt;a href=&quot;https://help.github.com/articles/basic-writing-and-formatting-syntax/&quot;&gt;“Basic Writing and Formatting on GitHub”&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;</content><author><name>Chris Oung</name></author><summary type="html">Table of Contents Introduction Headings Emphasis Lists Images Links Code Blocks Blockquotes References Introduction Markdown is a lightweight and an easy-to-use syntax for styling all forms of writing on the GitHub platform.[1] This document contains a basic overview of the markdown syntax. Use this document as a reference guide for documenting projects on the GitHub platform. For more advanced information about the markdown syntax, see About Writing and Formatting on GitHub. Headings To create a heading, add one to six # symbols before your heading text. The number of # you use will determine the size of the heading.[2] For example, to create a heading level three (&amp;lt;h3&amp;gt;), use three number signs (e.g., ### My Header). Markdown input: # This is an h1 tag ## This is an h2 tag ### This is an h3 tag #### This is an h4 tag ##### This is an h5 tag ###### This is an h6 tag HTML output: &amp;lt;h1&amp;gt;This is an h1 tag&amp;lt;/h1&amp;gt; &amp;lt;h2&amp;gt;This is an h2 tag&amp;lt;/h2&amp;gt; &amp;lt;h3&amp;gt;This is an h3 tag&amp;lt;/h3&amp;gt; &amp;lt;h4&amp;gt;This is an h4 tag&amp;lt;/h4&amp;gt; &amp;lt;h5&amp;gt;This is an h5 tag&amp;lt;/h5&amp;gt; &amp;lt;h6&amp;gt;This is an h6 tag&amp;lt;/h6&amp;gt; Emphasis With markdown, you can add emphasis by making text bold or italic.[2] To bold text, add two asterisks or underscores before and after a word or phrase. Markdown input: *This text will be italic* _This will also be italic_ **This text will be bold** __This will also be bold__ HTML output: &amp;lt;em&amp;gt;This will be italic&amp;lt;/em&amp;gt; &amp;lt;em&amp;gt;This will also be italic&amp;lt;/em&amp;gt; &amp;lt;strong&amp;gt;This will be bold&amp;lt;/strong&amp;gt; &amp;lt;strong&amp;gt;This will also be bold&amp;lt;/strong&amp;gt; Lists You can organize items into ordered and unordered lists. Unordered list Markdown input: * Item 1 * Item 2 * Item 2a * Item 2b HTML output: &amp;lt;ul&amp;gt; &amp;lt;li&amp;gt;Item 1&amp;lt;/li&amp;gt; &amp;lt;li&amp;gt;Item 2&amp;lt;/li&amp;gt; &amp;lt;ul&amp;gt; &amp;lt;li&amp;gt;Item 2a&amp;lt;/li&amp;gt; &amp;lt;li&amp;gt;Item 2b&amp;lt;/li&amp;gt; &amp;lt;/ul&amp;gt; &amp;lt;/ul&amp;gt; Ordered list Markdown input: 1. Item 1 2. Item 2 3. Item 3 3.1. Item 3a 3.2. Item 3b HTML output: &amp;lt;ol&amp;gt; &amp;lt;li&amp;gt;Item 1&amp;lt;/li&amp;gt; &amp;lt;li&amp;gt;Item 2&amp;lt;/li&amp;gt; &amp;lt;li&amp;gt;Item 3&amp;lt;/li&amp;gt; &amp;lt;ol&amp;gt; &amp;lt;li&amp;gt;Item 3a&amp;lt;/li&amp;gt; &amp;lt;li&amp;gt;Item 3b&amp;lt;/li&amp;gt; &amp;lt;/ol&amp;gt; &amp;lt;/ol&amp;gt; Images Markdown input: ![GitHub Logo](/images/logo.png) HTML output: &amp;lt;img src=&quot;/images/logo.png&quot; alt=&quot;GitHub Logo&quot;/&amp;gt; Links Markdown input: [GitHub](http://github.com) HTML output: &amp;lt;a href=&quot;http://github.com&quot;&amp;gt;GitHub&amp;lt;/a&amp;gt; Code Blocks To create code blocks, indent every line of the block by at least four spaces or one tab. Markdown input: &amp;lt;html&amp;gt; &amp;lt;head&amp;gt; &amp;lt;/head&amp;gt; &amp;lt;/html&amp;gt; HTML output: &amp;lt;pre&amp;gt; &amp;lt;code&amp;gt; &amp;amp;lt;html&amp;amp;gt; &amp;amp;lt;head&amp;amp;gt; &amp;amp;lt;/head&amp;amp;gt; &amp;amp;lt;/html&amp;amp;gt; &amp;lt;/code&amp;gt; &amp;lt;/pre&amp;gt; Blockquote To create a blockquote, add a &amp;gt; in front of a paragraph. Markdown input: &amp;gt; This is a blockquote. HTML output: &amp;lt;blockquote&amp;gt;This is a blockquote&amp;lt;/blockquote&amp;gt; References [1] Source: “About Writing and Formatting on GitHub” [2] Source: “Basic Writing and Formatting on GitHub”</summary></entry></feed>

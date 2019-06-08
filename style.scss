@@ -152,14 +152,12 @@ img {
   width: 100%;
 }
 
-hr {
-  border:0;
-  height: 0px;
-  border-bottom: 1px solid $lightGray;
-}
 
 .date {
-  color: $gray;
+  color: $black;
+  padding: 10 15;
+  font-size: 12px;
+  font-weight: 300;
 }
 
 // Specify the color of the selection
@@ -230,9 +228,10 @@ h3.text-primary {
     }
   
     .site-name {
-      margin-top:10px;
+      margin-top:20px;
       font-family: $helveticaNeue;
       font-weight: 500;
+      font-size:18px;
 
     a {
       color: $darkGray;
@@ -247,7 +246,7 @@ h3.text-primary {
     .site-description {
       margin: -5px auto;
       color: $darkGray;
-      font-size: 11px;
+      font-size: 12px;
       font-family: $helvetica;
       font-weight: 300;
      
@@ -259,7 +258,7 @@ h3.text-primary {
 
 .main-nav {
   float: right;
-  margin-top: 15px;
+  margin-top: 20px;
   font-size: 15px;
   font-weight:normal;
   text-align:right;
@@ -307,7 +306,9 @@ h3.text-primary {
 
 .posts > .post {
   padding-bottom: 2em;
-  border-bottom: 1px solid $lightGray;
+ // border-bottom: 1px solid $lightGray;
+  border-bottom:none;
+
 }
 
 .posts > .post:last-child {
@@ -342,9 +343,7 @@ h3.text-primary {
 }
 
 .wrapper-footer {
-  margin-top: 0px;
-  border-top: 1px solid $lightGray;
-  padding: 10px 0;
+  padding:0px 0;
   background-color: $white;
 
 }
