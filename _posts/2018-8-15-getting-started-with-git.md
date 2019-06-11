@@ -39,7 +39,7 @@ Some of the most common Git commands include the following:
 
   `git clone` creates a local copy of a project, which already exists remotely. The clone includes all of the project files, history, and branches.
 
-  `git commit` saves the snapshot to the project history and completes the change-tracking process. In short, a commit functions like taking a photo. Anything thatâ€™s been staged with git add will become a part of the snapshot with git commit.
+  `git commit` saves the snapshot to the project history and completes the change-tracking process. In short, a commit functions like taking a photo. Anything that’s been staged with git add will become a part of the snapshot with git commit.
 
   `git status` shows the status of changes as untracked, modified, or staged.
   git branch shows the branches being worked on locally.
@@ -54,4 +54,4 @@ Some of the most common Git commands include the following:
 
 **References**
 
-[1] Source: ["Getting Started - About Version Control"](https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control)_
+[1] Source: ["Getting Started - About Version Control"](https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control)

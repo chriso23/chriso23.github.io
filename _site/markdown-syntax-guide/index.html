@@ -1,494 +1,48 @@
 <!DOCTYPE html>
-<html>
-   <!---------head elements------>
-  <head>
-  <title>GitHub Flavored Markdown: Basic Syntax Guide | Chris Oung </title>
-  <meta charset="utf-8"/>
-  <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
-  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-  <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'>
+  <!----------metadata.html-------->
+  <html lang="en" class="light">
+<title>GitHub Flavored Markdown Syntax Guide | Chris Oung</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Table of Contents Introduction Headings Emphasis Lists Images Links Code Blocks Blockquotes References Introduction Markdown is a lightweight and an easy-to-...">
+<meta name="author" content="Chris Oung">
+<meta name="generator" content="Jekyll v3.8.5">
+<link rel="canonical" href="http://localhost:4000/markdown-syntax-guide/">
+<link rel="stylesheet" href="/assets/css/index.css">
+<link rel="stylesheet" href="/assets/css/theme.css">
+<link rel="alternate" type="application/atom+xml" href="/feed.xml" title="Chris Oung" />
+
+
+
+
+  <!---------header.html----------->
+  <header class="dark">
+    
+    <nav>
+      <a href="/">Posts</a>
+      <a href="/resume/">Resume</a>
+    </nav>
+    
+      <nav>
+      
+        <a class="icon" href="https://mailto:chrisoung23@gmail.com"><svg><use xlink:href="/assets/fontawesome/icons.svg#envelope"></use></svg></a>
+      
+        <a class="icon" href="https://github.com/chrisoung"><svg><use xlink:href="/assets/fontawesome/icons.svg#github"></use></svg></a>
+      
+        <a class="icon" href="/feed.xml"><svg><use xlink:href="/assets/fontawesome/icons.svg#rss"></use></svg></a>
+      
+      </nav>
+    
+</header>
   
-    <meta name="description" content="Table of Contents
-
-
-
-  Introduction
-  Headings
-  Emphasis
-  Lists
-  Images
-  Links
-  Code Blocks
-  Blockquotes
-  References
-
-
-
-
-Introduction 
-
-
-Markdown is a lightweight and an easy-to-use syntax for styling all forms of writing on the GitHub platform.[1] This document contains a basic overview of the markdown syntax. Use this document as a reference guide for documenting projects on the GitHub platform.
-
-For more advanced information about the markdown syntax, see About Writing and Formatting on GitHub.
-
-
-
-Headings 
-
-
-To create a heading, add one to six # symbols before your heading text. The number of # you use will determine the size of the heading.[2]
-
-For example, to create a heading level three (&lt;h3&gt;), use three number signs (e.g., ### My Header).
-
-Markdown input:
-
-# This is an h1 tag
-## This is an h2 tag
-### This is an h3 tag
-#### This is an h4 tag
-##### This is an h5 tag
-###### This is an h6 tag
-
-
-HTML output:
-
-&lt;h1&gt;This is an h1 tag&lt;/h1&gt;
-&lt;h2&gt;This is an h2 tag&lt;/h2&gt;
-&lt;h3&gt;This is an h3 tag&lt;/h3&gt;
-&lt;h4&gt;This is an h4 tag&lt;/h4&gt;
-&lt;h5&gt;This is an h5 tag&lt;/h5&gt;
-&lt;h6&gt;This is an h6 tag&lt;/h6&gt;
-
-
-
-
-Emphasis 
-
-
-With markdown, you can add emphasis by making text bold or italic.[2]
-
-To bold text, add two asterisks or underscores before and after a word or phrase.
-
-Markdown input:
-
-*This text will be italic*
-_This will also be italic_
-
-**This text will be bold**
-__This will also be bold__
-
-
-
-HTML output:
-
-&lt;em&gt;This will be italic&lt;/em&gt;
-&lt;em&gt;This will also be italic&lt;/em&gt;
-
-&lt;strong&gt;This will be bold&lt;/strong&gt;
-&lt;strong&gt;This will also be bold&lt;/strong&gt;
-
-
-
-
-Lists 
-
-
-You can organize items into ordered and unordered lists.
-
-Unordered list
-
-Markdown input:
-
-* Item 1
-* Item 2
-  * Item 2a
-  * Item 2b
-
-HTML output:
-
-&lt;ul&gt;
-&lt;li&gt;Item 1&lt;/li&gt;
-&lt;li&gt;Item 2&lt;/li&gt;
-&lt;ul&gt;
-&lt;li&gt;Item 2a&lt;/li&gt;
-&lt;li&gt;Item 2b&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/ul&gt;
-
-
-
-Ordered list
-
-Markdown input:
-
-1. Item 1
-2. Item 2
-3. Item 3
-   3.1. Item 3a
-   3.2. Item 3b
-
-
-HTML output:
-
-&lt;ol&gt;
-&lt;li&gt;Item 1&lt;/li&gt;
-&lt;li&gt;Item 2&lt;/li&gt;
-&lt;li&gt;Item 3&lt;/li&gt;
-&lt;ol&gt;
-&lt;li&gt;Item 3a&lt;/li&gt;
-&lt;li&gt;Item 3b&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/ol&gt;
-
-
-
-
-Images 
-
-
-Markdown input:
-
-![GitHub Logo](/images/logo.png)
-
-
-HTML output:
-
-&lt;img src="/images/logo.png" alt="GitHub Logo"/&gt;
-
-
-
-
-Links 
-
-Markdown input:
-
-[GitHub](http://github.com)
-
-
-HTML output:
-
-&lt;a href="http://github.com"&gt;GitHub&lt;/a&gt;
-
-
-
-Code Blocks 
-
-
-To create code blocks, indent every line of the block by at least four spaces or one
-tab.
-
-Markdown input:
-
-&lt;html&gt;
-  &lt;head&gt;
-  &lt;/head&gt;
-&lt;/html&gt;
-
-
-HTML output:
-
-&lt;pre&gt;
-  &lt;code&gt;
-    &amp;lt;html&amp;gt;
-    &amp;lt;head&amp;gt;
-    &amp;lt;/head&amp;gt;
-    &amp;lt;/html&amp;gt;
-  &lt;/code&gt;
-&lt;/pre&gt;
-
-
-
-
-Blockquote 
-
-
-To create a blockquote, add a &gt; in front of a paragraph.
-
-Markdown input:
-
-&gt; This is a blockquote.
-
-
-HTML output:
-
-&lt;blockquote&gt;This is a blockquote&lt;/blockquote&gt;
-
-
-
-
-References 
-
-
-[1]  Source:  “About Writing and Formatting on GitHub”
-
-[2]  Source: “Basic Writing and Formatting on GitHub”
-" />
-    <meta property="og:description" content="Table of Contents
-
-
-
-  Introduction
-  Headings
-  Emphasis
-  Lists
-  Images
-  Links
-  Code Blocks
-  Blockquotes
-  References
-
-
-
-
-Introduction 
-
-
-Markdown is a lightweight and an easy-to-use syntax for styling all forms of writing on the GitHub platform.[1] This document contains a basic overview of the markdown syntax. Use this document as a reference guide for documenting projects on the GitHub platform.
-
-For more advanced information about the markdown syntax, see About Writing and Formatting on GitHub.
-
-
-
-Headings 
-
-
-To create a heading, add one to six # symbols before your heading text. The number of # you use will determine the size of the heading.[2]
-
-For example, to create a heading level three (&lt;h3&gt;), use three number signs (e.g., ### My Header).
-
-Markdown input:
-
-# This is an h1 tag
-## This is an h2 tag
-### This is an h3 tag
-#### This is an h4 tag
-##### This is an h5 tag
-###### This is an h6 tag
-
-
-HTML output:
-
-&lt;h1&gt;This is an h1 tag&lt;/h1&gt;
-&lt;h2&gt;This is an h2 tag&lt;/h2&gt;
-&lt;h3&gt;This is an h3 tag&lt;/h3&gt;
-&lt;h4&gt;This is an h4 tag&lt;/h4&gt;
-&lt;h5&gt;This is an h5 tag&lt;/h5&gt;
-&lt;h6&gt;This is an h6 tag&lt;/h6&gt;
-
-
-
-
-Emphasis 
-
-
-With markdown, you can add emphasis by making text bold or italic.[2]
-
-To bold text, add two asterisks or underscores before and after a word or phrase.
-
-Markdown input:
-
-*This text will be italic*
-_This will also be italic_
-
-**This text will be bold**
-__This will also be bold__
-
-
-
-HTML output:
-
-&lt;em&gt;This will be italic&lt;/em&gt;
-&lt;em&gt;This will also be italic&lt;/em&gt;
-
-&lt;strong&gt;This will be bold&lt;/strong&gt;
-&lt;strong&gt;This will also be bold&lt;/strong&gt;
-
-
-
-
-Lists 
-
-
-You can organize items into ordered and unordered lists.
-
-Unordered list
-
-Markdown input:
-
-* Item 1
-* Item 2
-  * Item 2a
-  * Item 2b
-
-HTML output:
-
-&lt;ul&gt;
-&lt;li&gt;Item 1&lt;/li&gt;
-&lt;li&gt;Item 2&lt;/li&gt;
-&lt;ul&gt;
-&lt;li&gt;Item 2a&lt;/li&gt;
-&lt;li&gt;Item 2b&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/ul&gt;
-
-
-
-Ordered list
-
-Markdown input:
-
-1. Item 1
-2. Item 2
-3. Item 3
-   3.1. Item 3a
-   3.2. Item 3b
-
-
-HTML output:
-
-&lt;ol&gt;
-&lt;li&gt;Item 1&lt;/li&gt;
-&lt;li&gt;Item 2&lt;/li&gt;
-&lt;li&gt;Item 3&lt;/li&gt;
-&lt;ol&gt;
-&lt;li&gt;Item 3a&lt;/li&gt;
-&lt;li&gt;Item 3b&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/ol&gt;
-
-
-
-
-Images 
-
-
-Markdown input:
-
-![GitHub Logo](/images/logo.png)
-
-
-HTML output:
-
-&lt;img src="/images/logo.png" alt="GitHub Logo"/&gt;
-
-
-
-
-Links 
-
-Markdown input:
-
-[GitHub](http://github.com)
-
-
-HTML output:
-
-&lt;a href="http://github.com"&gt;GitHub&lt;/a&gt;
-
-
-
-Code Blocks 
-
-
-To create code blocks, indent every line of the block by at least four spaces or one
-tab.
-
-Markdown input:
-
-&lt;html&gt;
-  &lt;head&gt;
-  &lt;/head&gt;
-&lt;/html&gt;
-
-
-HTML output:
-
-&lt;pre&gt;
-  &lt;code&gt;
-    &amp;lt;html&amp;gt;
-    &amp;lt;head&amp;gt;
-    &amp;lt;/head&amp;gt;
-    &amp;lt;/html&amp;gt;
-  &lt;/code&gt;
-&lt;/pre&gt;
-
-
-
-
-Blockquote 
-
-
-To create a blockquote, add a &gt; in front of a paragraph.
-
-Markdown input:
-
-&gt; This is a blockquote.
-
-
-HTML output:
-
-&lt;blockquote&gt;This is a blockquote&lt;/blockquote&gt;
-
-
-
-
-References 
-
-
-[1]  Source:  “About Writing and Formatting on GitHub”
-
-[2]  Source: “Basic Writing and Formatting on GitHub”
-" />
-  
-    <meta name="author" content="CHRISTOPHER OUNG" />
-
-  
-    <meta property="og:title" content="GitHub Flavored Markdown: Basic Syntax Guide" />
-    <meta property="twitter:title" content="GitHub Flavored Markdown: Basic Syntax Guide" />
-  
-    <link rel="stylesheet" type="text/css" href="http://localhost:4000/style.css" />
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
-    <link rel="alternate" type="application/rss+xml" title="CHRISTOPHER OUNG - Technical Writer | Software Developer" href="http://localhost:4000/feed.xml" />
-</head>
-
-  <body>
-    <!---------Header and navigation elements------->
-    <div class="container">
-    <div class="wrapper-masthead">
-    <div class="page-header clearfix">
-        <section class="site-info">
-            <h4 class="site-name"><!----a href="http://localhost:4000/about/"--CHRISTOPHER OUNG</a-->CHRISTOPHER OUNG</h4>
-            <p class="site-description">Technical Writer | Software Developer</p>
-        </section>
-
-        <section class="main-nav">
-            <nav class="nav">
-  <a href="http://localhost:4000/">Posts</a>
-  <!--a href="http://localhost:4000/projects/">Projects</a-->
-  <a href="http://localhost:4000/resume/">Resume</a>    
-</nav>
-
-
-        </section>
-    </div>
-    </div>
-</div>
-
- 
-
-    <!------Main---------->
-      <main id="main" class="container" role="main">
-        <!--------------Layout for posts-------------->
-<div class="jumbotron text-center">
-  <h3 class="text-primary" itemprop="name headline">GitHub Flavored Markdown: Basic Syntax Guide</h3><br/>
-  <small class="date">Posted on Jul 11, 2018 | By <a style="font-size: 12px;" href="http://localhost:4000/about/">Chris Oung</a>
-  </small>
-</div>
-<article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
-  <div class="post-content e-content" itemprop="articleBody">
-    <h3 id="table-of-contents">Table of Contents</h3>
-<hr />
+  <!-------Main content------------>
+  <div class = "container">
+    <article>
+  <header><h1><a href="/markdown-syntax-guide/">GitHub Flavored Markdown Syntax Guide</a></h1>
+    <strong><p>By Chris Oung</p></strong>
+    <time datetime="2019-03-11T00:00:00-07:00">March 11, 2019</time>
+  </header>
+<p><strong>Table of Contents</strong></p>
 
 <ol>
   <li><a href="#introduction">Introduction</a></li>
@@ -504,17 +58,15 @@ References
 
 <p><br /></p>
 
-<h3 id="introduction-">Introduction <a name="introduction"></a></h3>
-<hr />
+<h2 id="introduction-">Introduction <a name="introduction"></a></h2>
 
-<p>Markdown is a lightweight and an easy-to-use syntax for styling all forms of writing on the <a href="https://github.com">GitHub</a> platform.[1] This document contains a basic overview of the markdown syntax. Use this document as a reference guide for documenting projects on the GitHub platform.</p>
+<p>Markdown is a lightweight and an easy-to-use syntax for styling all forms of writing on the <a href="https://github.com">GitHub</a> platform. This document contains a basic overview of the markdown syntax. Use this document as a reference guide for documenting projects on the GitHub platform.</p>
 
 <p>For more advanced information about the markdown syntax, see <a href="https://help.github.com/articles/about-writing-and-formatting-on-github/">About Writing and Formatting on GitHub</a>.</p>
 
 <p><br /></p>
 
-<h3 id="headings-">Headings <a name="headings"></a></h3>
-<hr />
+<h2 id="headings-">Headings <a name="headings"></a></h2>
 
 <p>To create a heading, add one to six # symbols before your heading text. The number of # you use will determine the size of the heading.[2]</p>
 
@@ -522,7 +74,7 @@ References
 
 <p><small>Markdown input:</small></p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlights"><code># This is an h1 tag
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code># This is an h1 tag
 ## This is an h2 tag
 ### This is an h3 tag
 #### This is an h4 tag
@@ -542,8 +94,7 @@ References
 
 <p><br /></p>
 
-<h3 id="emphasis-">Emphasis <a name="emphasis"></a></h3>
-<hr />
+<h2 id="emphasis-">Emphasis <a name="emphasis"></a></h2>
 
 <p>With markdown, you can add emphasis by making text bold or italic.[2]</p>
 
@@ -551,7 +102,7 @@ References
 
 <p><small>Markdown input:</small></p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlights"><code>*This text will be italic*
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>*This text will be italic*
 _This will also be italic_
 
 **This text will be bold**
@@ -570,8 +121,7 @@ __This will also be bold__
 
 <p><br /></p>
 
-<h3 id="lists-">Lists <a name="lists"></a></h3>
-<hr />
+<h2 id="lists-">Lists <a name="lists"></a></h2>
 
 <p>You can organize items into ordered and unordered lists.</p>
 
@@ -579,7 +129,7 @@ __This will also be bold__
 
 <p><small>Markdown input:</small></p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlights"><code>* Item 1
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>* Item 1
 * Item 2
   * Item 2a
   * Item 2b
@@ -595,13 +145,14 @@ __This will also be bold__
 &lt;/ul&gt;
 &lt;/ul&gt;
 </code></pre>
+
 <p><br /></p>
 
 <p><strong>Ordered list</strong></p>
 
 <p><small>Markdown input:</small></p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlights"><code>1. Item 1
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>1. Item 1
 2. Item 2
 3. Item 3
    3.1. Item 3a
@@ -623,12 +174,11 @@ __This will also be bold__
 
 <p><br /></p>
 
-<h3 id="images-">Images <a name="images"></a></h3>
-<hr />
+<h2 id="images-">Images <a name="images"></a></h2>
 
 <p><small>Markdown input:</small></p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlights"><code>![GitHub Logo](/images/logo.png)
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>![GitHub Logo](/images/logo.png)
 </code></pre></div></div>
 
 <p><small>HTML output:</small></p>
@@ -638,11 +188,11 @@ __This will also be bold__
 
 <p><br /></p>
 
-<h3 id="links-">Links <a name="links"></a></h3>
-<hr />
+<h2 id="links-">Links <a name="links"></a></h2>
+
 <p><small>Markdown input:</small></p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlights"><code>[GitHub](http://github.com)
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>[GitHub](http://github.com)
 </code></pre></div></div>
 
 <p><small>HTML output:</small></p>
@@ -651,15 +201,14 @@ __This will also be bold__
 </code></pre>
 <p><br /></p>
 
-<h3 id="code-blocks-">Code Blocks <a name="code-blocks"></a></h3>
-<hr />
+<h2 id="code-blocks-">Code Blocks <a name="code-blocks"></a></h2>
 
 <p>To create code blocks, indent every line of the block by at least four spaces or one
 tab.</p>
 
 <p><small>Markdown input:</small></p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlights"><code><span class="nt">&lt;html&gt;</span>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;html&gt;</span>
   <span class="nt">&lt;head&gt;</span>
   <span class="nt">&lt;/head&gt;</span>
 <span class="nt">&lt;/html&gt;</span>
@@ -679,14 +228,13 @@ tab.</p>
 
 <p><br /></p>
 
-<h3 id="blockquote-">Blockquote <a name="blockquotes"></a></h3>
-<hr />
+<h2 id="blockquote-"><strong>Blockquote</strong> <a name="blockquotes"></a></h2>
 
 <p>To create a blockquote, add a <code class="highlighter-rouge">&gt;</code> in front of a paragraph.</p>
 
 <p><small>Markdown input:</small></p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlights"><code>&gt; This is a blockquote.
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&gt; This is a blockquote.
 </code></pre></div></div>
 
 <p><small>HTML output:</small></p>
@@ -696,52 +244,22 @@ tab.</p>
 
 <p><br /></p>
 
-<h4 id="references-">References <a name="references"></a></h4>
-<hr />
+<p><strong>References</strong> <a name="references"></a></p>
 
-<p>[1]  Source:  <em><a href="https://help.github.com/articles/about-writing-and-formatting-on-github/">“About Writing and Formatting on GitHub”</a></em></p>
+<p>[1]  Source: <a href="https://help.github.com/articles/about-writing-and-formatting-on-github/">“About Writing and Formatting on GitHub”</a></p>
 
-<p>[2]  Source: <em><a href="https://help.github.com/articles/basic-writing-and-formatting-syntax/">“Basic Writing and Formatting on GitHub”</a></em></p>
+<p>[2]  Source: <a href="https://help.github.com/articles/basic-writing-and-formatting-syntax/">“Basic Writing and Formatting on GitHub”</a></p>
 
-  </div>
-  <a class="u-url" href="/markdown-syntax-guide/" hidden></a>
+  
+  
 </article>
 
-      </main>
-    <!---------Footer elements-------------->
-    <footer class="container">
-  <div class="wrapper-footer">
-    <div class="gh-pages">
-      <p><small>&copy; 2019 <a href="https://chrisoung.github.io/">Chris Oung.</a> Hosted on <a href="https://github.com">GitHub.</small></p>
-    </div>
-    
-    <div class="svg-icons">
-      
-<a href="mailto:oungc1@uw.edu"><i class="svg-icon email"></i></a>
 
-
-<a href="https://github.com/chrisoung"><i class="svg-icon github"></i></a>
-
-<a href="https://www.linkedin.com/in/chrisoung23"><i class="svg-icon linkedin"></i></a>
-
-<a href="http://localhost:4000/feed.xml"><i class="svg-icon rss"></i></a>
-
-
-
- 
-    </div>
   </div>
-</footer>
+  
+  <!-------footer.html------------>
+  <!----div id = "footer">
+  <p style="text-align:center;">&copy; Chris Oung. This site is hosted on <a href="https://github.com">GitHub.</a></p>
+</div--->
 
-
-    <!-----CDN support for Bootstrap's JavaScript------>
-    <!-- jQuery library -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-
-<!-- Latest compiled JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-
-<!-----LinkedIn profile badge----------->
-<script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
-  </body>
 </html>

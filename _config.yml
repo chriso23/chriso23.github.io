@@ -1,55 +1,33 @@
+title: "Chris Oung"
+author: "Chris Oung"
+description: " "
+lang: "en"
 
-name: CHRISTOPHER OUNG
+# Page settings
+permalink: /:title/          # see https://jekyllrb.com/docs/permalinks/
+date_format: "%B %d, %Y"     # see http://shopify.github.io/liquid/filters/date/
+hide_title: true             # remove site heading in the header
+post_footer: false            # show previous and next links at the end of each post
 
-author: Chris Oung
+# Theme settings
+dark_theme: false           # use the dark mode as default
+dark_header: true          # keep the header dark
 
-description: Technical Writer | Software Developer
-footer-links:
-  dribbble:
-  email: oungc1@uw.edu
-  facebook:
-  flickr:
-  github: chrisoung
-  instagram:
-  linkedin: chrisoung23
-  pinterest:
-  rss: https://chrisoung.github.io
-  twitter: 
-  stackoverflow:
-  youtube: 
-  googleplus: 
+icons:                       # (optional) icons in the header, see http://fontawesome.com/icons
+  envelope: "https://mailto:chrisoung23@gmail.com"
+  github: "https://github.com/chrisoung"
+  rss: "/feed.xml"
 
-url: https://chrisoung.github.io
+# Pagination
+show_excerpts: false         # preview articles on the home page
+paginate: 8                  # number of articles per page
+excerpt_separator: "\n\n\n"  # indicate the end of the excerpt by two blank lines
 
-baseurl: ""
+comments:                    # embed disqus or isso comments
+#  disqus: ""
+#  isso: ""
 
-excerpt_separator: <!--more-->
-
-permalink: /:title/
-
-version: v1.2.0
-
-kramdown:
-  input: GFM
-
-  syntax_highlighter: rouge
-  syntax_highlighter_opts:
-    css_class: 'highlights'
-
-
-sass:
-  style: :expanded 
-
-theme: minima
-
-plugins:
- - jekyll-sitemap 
+plugins: 
  - jekyll-feed
-
-
-exclude:
-  - Gemfile
-  - Gemfile.lock
-  - LICENSE
-  - README.md
-  - CNAME
+ - jekyll-paginate
+ - jekyll-default-layout

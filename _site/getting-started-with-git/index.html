@@ -1,183 +1,63 @@
 <!DOCTYPE html>
-<html>
-   <!---------head elements------>
-  <head>
-  <title>Getting Started with Git | Chris Oung </title>
-  <meta charset="utf-8"/>
-  <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
-  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-  <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'>
+  <!----------metadata.html-------->
+  <html lang="en" class="light">
+<title>Getting Started with Git | Chris Oung</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Table of Contents About this guide What is Git Common Git Commands About this guide This document aims to help beginners learn the basic functionality of the...">
+<meta name="author" content="Chris Oung">
+<meta name="generator" content="Jekyll v3.8.5">
+<link rel="canonical" href="http://localhost:4000/getting-started-with-git/">
+<link rel="stylesheet" href="/assets/css/index.css">
+<link rel="stylesheet" href="/assets/css/theme.css">
+<link rel="alternate" type="application/atom+xml" href="/feed.xml" title="Chris Oung" />
+
+
+
+
+  <!---------header.html----------->
+  <header class="dark">
+    
+    <nav>
+      <a href="/">Posts</a>
+      <a href="/resume/">Resume</a>
+    </nav>
+    
+      <nav>
+      
+        <a class="icon" href="https://mailto:chrisoung23@gmail.com"><svg><use xlink:href="/assets/fontawesome/icons.svg#envelope"></use></svg></a>
+      
+        <a class="icon" href="https://github.com/chrisoung"><svg><use xlink:href="/assets/fontawesome/icons.svg#github"></use></svg></a>
+      
+        <a class="icon" href="/feed.xml"><svg><use xlink:href="/assets/fontawesome/icons.svg#rss"></use></svg></a>
+      
+      </nav>
+    
+</header>
   
-    <meta name="description" content="About this guide
-
-
-This document aims to help beginners learn the basic functionality of the Git version control system.
-
-
-
-What is Git?
-
-
-Git is a free and open source software that is best known as a version control system. A version control system, or VCS, is a tool that tracks the history of changes of a file or set of files. This is particulary useful when teams collaborate on a project together. As the project evolves, teams can run tests, fix bugs, and contribute new code with the confidence of knowing that any previous version can be recovered at any time.[1]
-
-In brief, Git is a tool that lets developers see the entire timeline of their changes, decisions, and progression of any project in one place.
-
-
-
-Basic Git commands
-
-
-These commands can be executed directly from the command line or through an application like GitHub Desktop.
-
-Here is a list of common Git commands:
-
-git init initializes a brand new Git repository and begins tracking an existing directory. It adds a hidden subfolder within the existing directory that houses the internal data structure required for version control.
-
-
-
-git clone creates a local copy of a project that already exists remotely. The clone includes all the project’s files, history, and branches.
-
-
-
-git commit saves the snapshot to the project history and completes the change-tracking process. In short, a commit functions like taking a photo. Anything that’s been staged with git add will become a part of the snapshot with git commit.
-
-
-
-git status shows the status of changes as untracked, modified, or staged.
-git branch shows the branches being worked on locally.
-
-
-
-git merge merges lines of development together. This command is typically used to combine changes made on two distinct branches. For example, a developer would merge when they want to combine changes from a feature branch into the master branch for deployment.
-
-
-
-git pull updates the local line of development with updates from its remote counterpart. Developers use this command if a teammate has made commits to a branch on a remote, and they would like to reflect those changes in their local environment.
-
-
-
-git push updates the remote repository with any commits made locally to a branch.
-
-
-
-References
-
-
-[1] Source: “Getting Started - About Version Control”
-" />
-    <meta property="og:description" content="About this guide
-
-
-This document aims to help beginners learn the basic functionality of the Git version control system.
-
-
-
-What is Git?
-
-
-Git is a free and open source software that is best known as a version control system. A version control system, or VCS, is a tool that tracks the history of changes of a file or set of files. This is particulary useful when teams collaborate on a project together. As the project evolves, teams can run tests, fix bugs, and contribute new code with the confidence of knowing that any previous version can be recovered at any time.[1]
-
-In brief, Git is a tool that lets developers see the entire timeline of their changes, decisions, and progression of any project in one place.
-
-
-
-Basic Git commands
-
-
-These commands can be executed directly from the command line or through an application like GitHub Desktop.
-
-Here is a list of common Git commands:
-
-git init initializes a brand new Git repository and begins tracking an existing directory. It adds a hidden subfolder within the existing directory that houses the internal data structure required for version control.
-
-
-
-git clone creates a local copy of a project that already exists remotely. The clone includes all the project’s files, history, and branches.
-
-
-
-git commit saves the snapshot to the project history and completes the change-tracking process. In short, a commit functions like taking a photo. Anything that’s been staged with git add will become a part of the snapshot with git commit.
-
-
-
-git status shows the status of changes as untracked, modified, or staged.
-git branch shows the branches being worked on locally.
-
-
-
-git merge merges lines of development together. This command is typically used to combine changes made on two distinct branches. For example, a developer would merge when they want to combine changes from a feature branch into the master branch for deployment.
-
-
-
-git pull updates the local line of development with updates from its remote counterpart. Developers use this command if a teammate has made commits to a branch on a remote, and they would like to reflect those changes in their local environment.
-
-
-
-git push updates the remote repository with any commits made locally to a branch.
-
-
-
-References
-
-
-[1] Source: “Getting Started - About Version Control”
-" />
-  
-    <meta name="author" content="CHRISTOPHER OUNG" />
-
-  
-    <meta property="og:title" content="Getting Started with Git" />
-    <meta property="twitter:title" content="Getting Started with Git" />
-  
-    <link rel="stylesheet" type="text/css" href="http://localhost:4000/style.css" />
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
-    <link rel="alternate" type="application/rss+xml" title="CHRISTOPHER OUNG - Technical Writer | Software Developer" href="http://localhost:4000/feed.xml" />
-</head>
-
-  <body>
-    <!---------Header and navigation elements------->
-    <div class="container">
-    <div class="wrapper-masthead">
-    <div class="page-header clearfix">
-        <section class="site-info">
-            <h4 class="site-name"><!----a href="http://localhost:4000/about/"--CHRISTOPHER OUNG</a-->CHRISTOPHER OUNG</h4>
-            <p class="site-description">Technical Writer | Software Developer</p>
-        </section>
-
-        <section class="main-nav">
-            <nav class="nav">
-  <a href="http://localhost:4000/">Posts</a>
-  <!--a href="http://localhost:4000/projects/">Projects</a-->
-  <a href="http://localhost:4000/resume/">Resume</a>    
-</nav>
-
-
-        </section>
-    </div>
-    </div>
-</div>
-
- 
-
-    <!------Main---------->
-      <main id="main" class="container" role="main">
-        <!--------------Layout for posts-------------->
-<div class="jumbotron text-center">
-  <h3 class="text-primary" itemprop="name headline">Getting Started with Git</h3><br/>
-  <small class="date">Posted on Sep 15, 2018 | By <a style="font-size: 12px;" href="http://localhost:4000/about/">Chris Oung</a>
-  </small>
-</div>
-<article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
-  <div class="post-content e-content" itemprop="articleBody">
-    <h3 id="about-this-guide">About this guide</h3>
-<hr />
-
+  <!-------Main content------------>
+  <div class = "container">
+    <article>
+  <header><h1><a href="/getting-started-with-git/">Getting Started with Git</a></h1>
+    <strong><p>By Chris Oung</p></strong>
+    <time datetime="2018-08-15T00:00:00-07:00">August 15, 2018</time>
+  </header>
+<p><strong>Table of Contents</strong></p>
+
+<ol>
+  <li><a href="#about">About this guide</a></li>
+  <li><a href="#git">What is Git</a></li>
+  <li><a href="#common-git-commands">Common Git Commands</a></li>
+</ol>
+
+<p><br /></p>
+
+<h2 id="about-this-guide-">About this guide <a name="about"></a></h2>
 <p>This document aims to help beginners learn the basic functionality of the Git version control system.</p>
 
 <p><br /></p>
 
-<h3 id="what-is-git">What is Git?</h3>
-<hr />
+<h2 id="what-is-git-">What is Git? <a name="git"><a></a></a></h2>
 
 <p>Git is a <a href="https://git-scm.com/about/free-and-open-source">free and open source</a> software that is best known as a version control system. A version control system, or VCS, is a tool that tracks the history of changes of a file or set of files. This is particulary useful when teams collaborate on a project together. As the project evolves, teams can run tests, fix bugs, and contribute new code with the confidence of knowing that any previous version can be recovered at any time.[1]</p>
 
@@ -185,86 +65,45 @@ References
 
 <p><br /></p>
 
-<h3 id="basic-git-commands">Basic Git commands</h3>
-<hr />
+<h2 id="git-commands-">Git commands <a name="common-git-commands"></a></h2>
 
-<p>These commands can be executed directly from the command line or through an application like <a href="https://desktop.github.com/">GitHub Desktop</a>.</p>
+<p>Git commands can be executed directly from a command-line interface (CLI) or through a third-party desktop application such as <a href="https://desktop.github.com/">GitHub Desktop</a>.</p>
 
-<p><strong>Here is a list of common Git commands:</strong></p>
+<p><strong>Note</strong>: Before getting started, make sure to have Git installed on your local computer. To install Git for your computer’s operating system, follow the installation instructions at <a href="https://git-scm.com/book/en/v2/Getting-Started-Installing-Git">Getting Started - Installing Git</a>.</p>
+
+<p>Some of the most common Git commands include the following:</p>
 
 <p><code class="highlighter-rouge">git init</code> initializes a brand new Git repository and begins tracking an existing directory. It adds a hidden subfolder within the existing directory that houses the internal data structure required for version control.</p>
 
-<p><br /></p>
-
-<p><code class="highlighter-rouge">git clone</code> creates a local copy of a project that already exists remotely. The clone includes all the project’s files, history, and branches.</p>
-
-<p><br /></p>
+<p><code class="highlighter-rouge">git clone</code> creates a local copy of a project, which already exists remotely. The clone includes all of the project files, history, and branches.</p>
 
 <p><code class="highlighter-rouge">git commit</code> saves the snapshot to the project history and completes the change-tracking process. In short, a commit functions like taking a photo. Anything that’s been staged with git add will become a part of the snapshot with git commit.</p>
 
-<p><br /></p>
-
 <p><code class="highlighter-rouge">git status</code> shows the status of changes as untracked, modified, or staged.
-git branch shows the branches being worked on locally.</p>
-
-<p><br /></p>
+  git branch shows the branches being worked on locally.</p>
 
 <p><code class="highlighter-rouge">git merge</code> merges lines of development together. This command is typically used to combine changes made on two distinct branches. For example, a developer would merge when they want to combine changes from a feature branch into the master branch for deployment.</p>
 
-<p><br /></p>
-
 <p><code class="highlighter-rouge">git pull</code> updates the local line of development with updates from its remote counterpart. Developers use this command if a teammate has made commits to a branch on a remote, and they would like to reflect those changes in their local environment.</p>
-
-<p><br /></p>
 
 <p><code class="highlighter-rouge">git push</code> updates the remote repository with any commits made locally to a branch.</p>
 
 <p><br /></p>
 
-<h4 id="references">References</h4>
-<hr />
+<p><strong>References</strong></p>
 
-<p>[1] Source: <em><a href="https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control">“Getting Started - About Version Control”</a></em></p>
+<p>[1] Source: <a href="https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control">“Getting Started - About Version Control”</a></p>
 
-  </div>
-  <a class="u-url" href="/getting-started-with-git/" hidden></a>
+  
+  
 </article>
 
-      </main>
-    <!---------Footer elements-------------->
-    <footer class="container">
-  <div class="wrapper-footer">
-    <div class="gh-pages">
-      <p><small>&copy; 2019 <a href="https://chrisoung.github.io/">Chris Oung.</a> Hosted on <a href="https://github.com">GitHub.</small></p>
-    </div>
-    
-    <div class="svg-icons">
-      
-<a href="mailto:oungc1@uw.edu"><i class="svg-icon email"></i></a>
 
-
-<a href="https://github.com/chrisoung"><i class="svg-icon github"></i></a>
-
-<a href="https://www.linkedin.com/in/chrisoung23"><i class="svg-icon linkedin"></i></a>
-
-<a href="http://localhost:4000/feed.xml"><i class="svg-icon rss"></i></a>
-
-
-
- 
-    </div>
   </div>
-</footer>
+  
+  <!-------footer.html------------>
+  <!----div id = "footer">
+  <p style="text-align:center;">&copy; Chris Oung. This site is hosted on <a href="https://github.com">GitHub.</a></p>
+</div--->
 
-
-    <!-----CDN support for Bootstrap's JavaScript------>
-    <!-- jQuery library -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-
-<!-- Latest compiled JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-
-<!-----LinkedIn profile badge----------->
-<script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
-  </body>
 </html>

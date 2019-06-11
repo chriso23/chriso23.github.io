@@ -1,19 +1,15 @@
 <!DOCTYPE html>
-<html>
-   <!---------head elements------>
-  {% include head.html %}
-  <body>
-    <!---------Header and navigation elements------->
-    {% include header.html %} 
+  <!----------metadata.html-------->
+  {% include metadata.html %}
 
-    <!------Main---------->
-      <main id="main" class="container" role="main">
-        {{ content }}
-      </main>
-    <!---------Footer elements-------------->
-    {% include footer.html %}
-
-    <!-----CDN support for Bootstrap's JavaScript------>
-    {% include scripts.html %}
-  </body>
+  <!---------header.html----------->
+  {% include header.html %}
+  
+  <!-------Main content------------>
+  <div class = "container">
+    {{ content }}
+  </div>
+  
+  <!-------footer.html------------>
+  {% include footer.html %}
 </html>

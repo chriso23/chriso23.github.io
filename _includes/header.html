@@ -1,15 +1,16 @@
-<div class="container">
-    <div class="wrapper-masthead">
-    <div class="page-header clearfix">
-        <section class="site-info">
-            <h4 class="site-name"><!----a href="{{ site.url }}/about/"--{{ site.name }}</a-->{{ site.name }}</h4>
-            <p class="site-description">{{ site.description }}</p>
-        </section>
-
-        <section class="main-nav">
-            {% include nav.html %}
-        </section>
-    </div>
-    </div>
-</div>
-
+<header class="{% if site.dark_header %}dark{% endif %}">
+    {% unless site.hide_title %}
+      <h1><a href="{{ "/" | relative_url }}">{{ site.title | escape }}</a></h1>
+    {% endunless %}
+    <nav>
+      <a href="/">Posts</a>
+      <a href="/resume/">Resume</a>
+    </nav>
+    {% if site.icons %}
+      <nav>
+      {% for link in site.icons %}
+        <a class="icon" href="{{ link[1] }}"><svg><use xlink:href="{{ "/assets/fontawesome/icons.svg" | relative_url }}#{{ link[0] }}"></use></svg></a>
+      {% endfor %}
+      </nav>
+    {% endif %}
+</header>

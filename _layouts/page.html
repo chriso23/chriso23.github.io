@@ -1,12 +1,7 @@
 ---
 layout: default
 ---
-
-<!----Layout for static pages--------->
-<article id="pages" class="post">
-  
-  <div class="post-content">
-    {{ content }}
-  </div>
-
+<article>
+  <header><h1><a href="{{ page.url | relative_url }}">{{ page.title }}</a></h1></header>
+{{ content }}
 </article>
