@@ -5,4 +5,4 @@ Built a personal website and blog that is powered by [Jekyll](https://jekyllrb.c
 
 License
 -------
-[MIT License](https://github.com/chrisoung/chrisoung.github.io/blob/master/LICENSE)
+[Apache 2.0 License](https://github.com/chrisoung/chrisoung.github.io/blob/master/License)
