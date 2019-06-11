@@ -4,7 +4,7 @@
 <title>GitHub Flavored Markdown Syntax Guide | Chris Oung</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="Table of Contents Introduction Headings Emphasis Lists Images Links Code Blocks Blockquotes References Introduction Markdown is a lightweight and an easy-to-...">
+<meta name="description" content="Table of Contents Introduction Headings Emphasis Lists Unordered Lists Ordered Lists Images Links Code Blocks Blockquotes References Introduction Markdown is...">
 <meta name="author" content="Chris Oung">
 <meta name="generator" content="Jekyll v3.8.5">
 <link rel="canonical" href="http://localhost:4000/markdown-syntax-guide/">
@@ -42,13 +42,18 @@
     <strong><p>By Chris Oung</p></strong>
     <time datetime="2019-03-11T00:00:00-07:00">March 11, 2019</time>
   </header>
-<p><strong>Table of Contents</strong></p>
+<h2 id="table-of-contents"><strong>Table of Contents</strong></h2>
 
 <ol>
   <li><a href="#introduction">Introduction</a></li>
   <li><a href="#headings">Headings</a></li>
   <li><a href="#emphasis">Emphasis</a></li>
-  <li><a href="#lists">Lists</a></li>
+  <li><a href="#lists">Lists</a>
+    <ul>
+      <li><a href="#unordered-lists">Unordered Lists</a></li>
+      <li><a href="#ordered-lists">Ordered Lists</a></li>
+    </ul>
+  </li>
   <li><a href="#images">Images</a></li>
   <li><a href="#links">Links</a></li>
   <li><a href="#code-blocks">Code Blocks</a></li>
@@ -56,17 +61,13 @@
   <li><a href="#references">References</a></li>
 </ol>
 
-<p><br /></p>
-
-<h2 id="introduction-">Introduction <a name="introduction"></a></h2>
+<h2 id="introduction-"><strong>Introduction</strong> <a name="introduction"></a></h2>
 
 <p>Markdown is a lightweight and an easy-to-use syntax for styling all forms of writing on the <a href="https://github.com">GitHub</a> platform. This document contains a basic overview of the markdown syntax. Use this document as a reference guide for documenting projects on the GitHub platform.</p>
 
 <p>For more advanced information about the markdown syntax, see <a href="https://help.github.com/articles/about-writing-and-formatting-on-github/">About Writing and Formatting on GitHub</a>.</p>
 
-<p><br /></p>
-
-<h2 id="headings-">Headings <a name="headings"></a></h2>
+<h2 id="headings-"><strong>Headings</strong> <a name="headings"></a></h2>
 
 <p>To create a heading, add one to six # symbols before your heading text. The number of # you use will determine the size of the heading.[2]</p>
 
@@ -92,9 +93,7 @@
 &lt;h6&gt;This is an h6 tag&lt;/h6&gt;
 </code></pre>
 
-<p><br /></p>
-
-<h2 id="emphasis-">Emphasis <a name="emphasis"></a></h2>
+<h2 id="emphasis-"><strong>Emphasis</strong> <a name="emphasis"></a></h2>
 
 <p>With markdown, you can add emphasis by making text bold or italic.[2]</p>
 
@@ -119,13 +118,11 @@ __This will also be bold__
 &lt;strong&gt;This will also be bold&lt;/strong&gt;
 </code></pre>
 
-<p><br /></p>
-
-<h2 id="lists-">Lists <a name="lists"></a></h2>
+<h2 id="lists-"><strong>Lists</strong> <a name="lists"></a></h2>
 
 <p>You can organize items into ordered and unordered lists.</p>
 
-<p><strong>Unordered list</strong></p>
+<h3 id="unordered-lists-"><strong>Unordered lists</strong> <a name="unordered-lists"></a></h3>
 
 <p><small>Markdown input:</small></p>
 
@@ -146,9 +143,7 @@ __This will also be bold__
 &lt;/ul&gt;
 </code></pre>
 
-<p><br /></p>
-
-<p><strong>Ordered list</strong></p>
+<h3 id="ordered-lists-"><strong>Ordered lists</strong> <a name="ordered-lists"></a></h3>
 
 <p><small>Markdown input:</small></p>
 
@@ -172,9 +167,7 @@ __This will also be bold__
 &lt;/ol&gt;
 </code></pre>
 
-<p><br /></p>
-
-<h2 id="images-">Images <a name="images"></a></h2>
+<h2 id="images-"><strong>Images</strong> <a name="images"></a></h2>
 
 <p><small>Markdown input:</small></p>
 
@@ -186,9 +179,7 @@ __This will also be bold__
 <pre><code class="language-raw">&lt;img src="/images/logo.png" alt="GitHub Logo"/&gt;
 </code></pre>
 
-<p><br /></p>
-
-<h2 id="links-">Links <a name="links"></a></h2>
+<h2 id="links-"><strong>Links</strong> <a name="links"></a></h2>
 
 <p><small>Markdown input:</small></p>
 
@@ -199,9 +190,8 @@ __This will also be bold__
 
 <pre><code class="language-raw">&lt;a href="http://github.com"&gt;GitHub&lt;/a&gt;
 </code></pre>
-<p><br /></p>
 
-<h2 id="code-blocks-">Code Blocks <a name="code-blocks"></a></h2>
+<h2 id="code-blocks-"><strong>Code Blocks</strong> <a name="code-blocks"></a></h2>
 
 <p>To create code blocks, indent every line of the block by at least four spaces or one
 tab.</p>
@@ -226,8 +216,6 @@ tab.</p>
 &lt;/pre&gt;
 </code></pre>
 
-<p><br /></p>
-
 <h2 id="blockquote-"><strong>Blockquote</strong> <a name="blockquotes"></a></h2>
 
 <p>To create a blockquote, add a <code class="highlighter-rouge">&gt;</code> in front of a paragraph.</p>
@@ -241,7 +229,6 @@ tab.</p>
 
 <pre><code class="language-raw">&lt;blockquote&gt;This is a blockquote&lt;/blockquote&gt;
 </code></pre>
-
 <p><br /></p>
 
 <p><strong>References</strong> <a name="references"></a></p>

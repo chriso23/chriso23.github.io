@@ -1,10 +1,15 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en" /><updated>2019-06-11T06:00:49-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Chris Oung</title><subtitle> </subtitle><author><name>Chris Oung</name></author><entry><title type="html">GitHub Flavored Markdown Syntax Guide</title><link href="http://localhost:4000/markdown-syntax-guide/" rel="alternate" type="text/html" title="GitHub Flavored Markdown Syntax Guide" /><published>2019-03-11T00:00:00-07:00</published><updated>2019-03-11T00:00:00-07:00</updated><id>http://localhost:4000/markdown-syntax-guide</id><content type="html" xml:base="http://localhost:4000/markdown-syntax-guide/">&lt;p&gt;&lt;strong&gt;Table of Contents&lt;/strong&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en" /><updated>2019-06-11T08:14:43-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Chris Oung</title><subtitle> </subtitle><author><name>Chris Oung</name></author><entry><title type="html">GitHub Flavored Markdown Syntax Guide</title><link href="http://localhost:4000/markdown-syntax-guide/" rel="alternate" type="text/html" title="GitHub Flavored Markdown Syntax Guide" /><published>2019-03-11T00:00:00-07:00</published><updated>2019-03-11T00:00:00-07:00</updated><id>http://localhost:4000/markdown-syntax-guide</id><content type="html" xml:base="http://localhost:4000/markdown-syntax-guide/">&lt;h2 id=&quot;table-of-contents&quot;&gt;&lt;strong&gt;Table of Contents&lt;/strong&gt;&lt;/h2&gt;
 
 &lt;ol&gt;
   &lt;li&gt;&lt;a href=&quot;#introduction&quot;&gt;Introduction&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;#headings&quot;&gt;Headings&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;#emphasis&quot;&gt;Emphasis&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#lists&quot;&gt;Lists&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#lists&quot;&gt;Lists&lt;/a&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#unordered-lists&quot;&gt;Unordered Lists&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#ordered-lists&quot;&gt;Ordered Lists&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;#images&quot;&gt;Images&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;#links&quot;&gt;Links&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;#code-blocks&quot;&gt;Code Blocks&lt;/a&gt;&lt;/li&gt;
@@ -12,17 +17,13 @@
   &lt;li&gt;&lt;a href=&quot;#references&quot;&gt;References&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;introduction-&quot;&gt;Introduction &lt;a name=&quot;introduction&quot;&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;h2 id=&quot;introduction-&quot;&gt;&lt;strong&gt;Introduction&lt;/strong&gt; &lt;a name=&quot;introduction&quot;&gt;&lt;/a&gt;&lt;/h2&gt;
 
 &lt;p&gt;Markdown is a lightweight and an easy-to-use syntax for styling all forms of writing on the &lt;a href=&quot;https://github.com&quot;&gt;GitHub&lt;/a&gt; platform. This document contains a basic overview of the markdown syntax. Use this document as a reference guide for documenting projects on the GitHub platform.&lt;/p&gt;
 
 &lt;p&gt;For more advanced information about the markdown syntax, see &lt;a href=&quot;https://help.github.com/articles/about-writing-and-formatting-on-github/&quot;&gt;About Writing and Formatting on GitHub&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;headings-&quot;&gt;Headings &lt;a name=&quot;headings&quot;&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;h2 id=&quot;headings-&quot;&gt;&lt;strong&gt;Headings&lt;/strong&gt; &lt;a name=&quot;headings&quot;&gt;&lt;/a&gt;&lt;/h2&gt;
 
 &lt;p&gt;To create a heading, add one to six # symbols before your heading text. The number of # you use will determine the size of the heading.[2]&lt;/p&gt;
 
@@ -48,9 +49,7 @@
 &amp;lt;h6&amp;gt;This is an h6 tag&amp;lt;/h6&amp;gt;
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;emphasis-&quot;&gt;Emphasis &lt;a name=&quot;emphasis&quot;&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;h2 id=&quot;emphasis-&quot;&gt;&lt;strong&gt;Emphasis&lt;/strong&gt; &lt;a name=&quot;emphasis&quot;&gt;&lt;/a&gt;&lt;/h2&gt;
 
 &lt;p&gt;With markdown, you can add emphasis by making text bold or italic.[2]&lt;/p&gt;
 
@@ -75,13 +74,11 @@ __This will also be bold__
 &amp;lt;strong&amp;gt;This will also be bold&amp;lt;/strong&amp;gt;
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;lists-&quot;&gt;Lists &lt;a name=&quot;lists&quot;&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;h2 id=&quot;lists-&quot;&gt;&lt;strong&gt;Lists&lt;/strong&gt; &lt;a name=&quot;lists&quot;&gt;&lt;/a&gt;&lt;/h2&gt;
 
 &lt;p&gt;You can organize items into ordered and unordered lists.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Unordered list&lt;/strong&gt;&lt;/p&gt;
+&lt;h3 id=&quot;unordered-lists-&quot;&gt;&lt;strong&gt;Unordered lists&lt;/strong&gt; &lt;a name=&quot;unordered-lists&quot;&gt;&lt;/a&gt;&lt;/h3&gt;
 
 &lt;p&gt;&lt;small&gt;Markdown input:&lt;/small&gt;&lt;/p&gt;
 
@@ -102,9 +99,7 @@ __This will also be bold__
 &amp;lt;/ul&amp;gt;
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Ordered list&lt;/strong&gt;&lt;/p&gt;
+&lt;h3 id=&quot;ordered-lists-&quot;&gt;&lt;strong&gt;Ordered lists&lt;/strong&gt; &lt;a name=&quot;ordered-lists&quot;&gt;&lt;/a&gt;&lt;/h3&gt;
 
 &lt;p&gt;&lt;small&gt;Markdown input:&lt;/small&gt;&lt;/p&gt;
 
@@ -128,9 +123,7 @@ __This will also be bold__
 &amp;lt;/ol&amp;gt;
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;images-&quot;&gt;Images &lt;a name=&quot;images&quot;&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;h2 id=&quot;images-&quot;&gt;&lt;strong&gt;Images&lt;/strong&gt; &lt;a name=&quot;images&quot;&gt;&lt;/a&gt;&lt;/h2&gt;
 
 &lt;p&gt;&lt;small&gt;Markdown input:&lt;/small&gt;&lt;/p&gt;
 
@@ -142,9 +135,7 @@ __This will also be bold__
 &lt;pre&gt;&lt;code class=&quot;language-raw&quot;&gt;&amp;lt;img src=&quot;/images/logo.png&quot; alt=&quot;GitHub Logo&quot;/&amp;gt;
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;links-&quot;&gt;Links &lt;a name=&quot;links&quot;&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;h2 id=&quot;links-&quot;&gt;&lt;strong&gt;Links&lt;/strong&gt; &lt;a name=&quot;links&quot;&gt;&lt;/a&gt;&lt;/h2&gt;
 
 &lt;p&gt;&lt;small&gt;Markdown input:&lt;/small&gt;&lt;/p&gt;
 
@@ -155,9 +146,8 @@ __This will also be bold__
 
 &lt;pre&gt;&lt;code class=&quot;language-raw&quot;&gt;&amp;lt;a href=&quot;http://github.com&quot;&amp;gt;GitHub&amp;lt;/a&amp;gt;
 &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;h2 id=&quot;code-blocks-&quot;&gt;Code Blocks &lt;a name=&quot;code-blocks&quot;&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;h2 id=&quot;code-blocks-&quot;&gt;&lt;strong&gt;Code Blocks&lt;/strong&gt; &lt;a name=&quot;code-blocks&quot;&gt;&lt;/a&gt;&lt;/h2&gt;
 
 &lt;p&gt;To create code blocks, indent every line of the block by at least four spaces or one
 tab.&lt;/p&gt;
@@ -182,8 +172,6 @@ tab.&lt;/p&gt;
 &amp;lt;/pre&amp;gt;
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
 &lt;h2 id=&quot;blockquote-&quot;&gt;&lt;strong&gt;Blockquote&lt;/strong&gt; &lt;a name=&quot;blockquotes&quot;&gt;&lt;/a&gt;&lt;/h2&gt;
 
 &lt;p&gt;To create a blockquote, add a &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;gt;&lt;/code&gt; in front of a paragraph.&lt;/p&gt;
@@ -197,37 +185,31 @@ tab.&lt;/p&gt;
 
 &lt;pre&gt;&lt;code class=&quot;language-raw&quot;&gt;&amp;lt;blockquote&amp;gt;This is a blockquote&amp;lt;/blockquote&amp;gt;
 &lt;/code&gt;&lt;/pre&gt;
-
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;References&lt;/strong&gt; &lt;a name=&quot;references&quot;&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;[1]  Source: &lt;a href=&quot;https://help.github.com/articles/about-writing-and-formatting-on-github/&quot;&gt;“About Writing and Formatting on GitHub”&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;[2]  Source: &lt;a href=&quot;https://help.github.com/articles/basic-writing-and-formatting-syntax/&quot;&gt;“Basic Writing and Formatting on GitHub”&lt;/a&gt;&lt;/p&gt;</content><author><name>Chris Oung</name></author><summary type="html">Table of Contents Introduction Headings Emphasis Lists Images Links Code Blocks Blockquotes References Introduction Markdown is a lightweight and an easy-to-use syntax for styling all forms of writing on the GitHub platform. This document contains a basic overview of the markdown syntax. Use this document as a reference guide for documenting projects on the GitHub platform. For more advanced information about the markdown syntax, see About Writing and Formatting on GitHub. Headings To create a heading, add one to six # symbols before your heading text. The number of # you use will determine the size of the heading.[2] For example, to create a heading level three (&amp;lt;h3&amp;gt;), use three number signs (e.g., ### My Header). Markdown input: # This is an h1 tag ## This is an h2 tag ### This is an h3 tag #### This is an h4 tag ##### This is an h5 tag ###### This is an h6 tag HTML output: &amp;lt;h1&amp;gt;This is an h1 tag&amp;lt;/h1&amp;gt; &amp;lt;h2&amp;gt;This is an h2 tag&amp;lt;/h2&amp;gt; &amp;lt;h3&amp;gt;This is an h3 tag&amp;lt;/h3&amp;gt; &amp;lt;h4&amp;gt;This is an h4 tag&amp;lt;/h4&amp;gt; &amp;lt;h5&amp;gt;This is an h5 tag&amp;lt;/h5&amp;gt; &amp;lt;h6&amp;gt;This is an h6 tag&amp;lt;/h6&amp;gt; Emphasis With markdown, you can add emphasis by making text bold or italic.[2] To bold text, add two asterisks or underscores before and after a word or phrase. Markdown input: *This text will be italic* _This will also be italic_ **This text will be bold** __This will also be bold__ HTML output: &amp;lt;em&amp;gt;This will be italic&amp;lt;/em&amp;gt; &amp;lt;em&amp;gt;This will also be italic&amp;lt;/em&amp;gt; &amp;lt;strong&amp;gt;This will be bold&amp;lt;/strong&amp;gt; &amp;lt;strong&amp;gt;This will also be bold&amp;lt;/strong&amp;gt; Lists You can organize items into ordered and unordered lists. Unordered list Markdown input: * Item 1 * Item 2 * Item 2a * Item 2b HTML output: &amp;lt;ul&amp;gt; &amp;lt;li&amp;gt;Item 1&amp;lt;/li&amp;gt; &amp;lt;li&amp;gt;Item 2&amp;lt;/li&amp;gt; &amp;lt;ul&amp;gt; &amp;lt;li&amp;gt;Item 2a&amp;lt;/li&amp;gt; &amp;lt;li&amp;gt;Item 2b&amp;lt;/li&amp;gt; &amp;lt;/ul&amp;gt; &amp;lt;/ul&amp;gt; Ordered list Markdown input: 1. Item 1 2. Item 2 3. Item 3 3.1. Item 3a 3.2. Item 3b HTML output: &amp;lt;ol&amp;gt; &amp;lt;li&amp;gt;Item 1&amp;lt;/li&amp;gt; &amp;lt;li&amp;gt;Item 2&amp;lt;/li&amp;gt; &amp;lt;li&amp;gt;Item 3&amp;lt;/li&amp;gt; &amp;lt;ol&amp;gt; &amp;lt;li&amp;gt;Item 3a&amp;lt;/li&amp;gt; &amp;lt;li&amp;gt;Item 3b&amp;lt;/li&amp;gt; &amp;lt;/ol&amp;gt; &amp;lt;/ol&amp;gt; Images Markdown input: ![GitHub Logo](/images/logo.png) HTML output: &amp;lt;img src=&quot;/images/logo.png&quot; alt=&quot;GitHub Logo&quot;/&amp;gt; Links Markdown input: [GitHub](http://github.com) HTML output: &amp;lt;a href=&quot;http://github.com&quot;&amp;gt;GitHub&amp;lt;/a&amp;gt; Code Blocks To create code blocks, indent every line of the block by at least four spaces or one tab. Markdown input: &amp;lt;html&amp;gt; &amp;lt;head&amp;gt; &amp;lt;/head&amp;gt; &amp;lt;/html&amp;gt; HTML output: &amp;lt;pre&amp;gt; &amp;lt;code&amp;gt; &amp;amp;lt;html&amp;amp;gt; &amp;amp;lt;head&amp;amp;gt; &amp;amp;lt;/head&amp;amp;gt; &amp;amp;lt;/html&amp;amp;gt; &amp;lt;/code&amp;gt; &amp;lt;/pre&amp;gt; Blockquote To create a blockquote, add a &amp;gt; in front of a paragraph. Markdown input: &amp;gt; This is a blockquote. HTML output: &amp;lt;blockquote&amp;gt;This is a blockquote&amp;lt;/blockquote&amp;gt; References [1] Source: “About Writing and Formatting on GitHub” [2] Source: “Basic Writing and Formatting on GitHub”</summary></entry><entry><title type="html">Getting Started with Git</title><link href="http://localhost:4000/getting-started-with-git/" rel="alternate" type="text/html" title="Getting Started with Git" /><published>2018-08-15T00:00:00-07:00</published><updated>2018-08-15T00:00:00-07:00</updated><id>http://localhost:4000/getting-started-with-git</id><content type="html" xml:base="http://localhost:4000/getting-started-with-git/">&lt;p&gt;&lt;strong&gt;Table of Contents&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;[2]  Source: &lt;a href=&quot;https://help.github.com/articles/basic-writing-and-formatting-syntax/&quot;&gt;“Basic Writing and Formatting on GitHub”&lt;/a&gt;&lt;/p&gt;</content><author><name>Chris Oung</name></author><summary type="html">Table of Contents Introduction Headings Emphasis Lists Unordered Lists Ordered Lists Images Links Code Blocks Blockquotes References Introduction Markdown is a lightweight and an easy-to-use syntax for styling all forms of writing on the GitHub platform. This document contains a basic overview of the markdown syntax. Use this document as a reference guide for documenting projects on the GitHub platform. For more advanced information about the markdown syntax, see About Writing and Formatting on GitHub. Headings To create a heading, add one to six # symbols before your heading text. The number of # you use will determine the size of the heading.[2] For example, to create a heading level three (&amp;lt;h3&amp;gt;), use three number signs (e.g., ### My Header). Markdown input: # This is an h1 tag ## This is an h2 tag ### This is an h3 tag #### This is an h4 tag ##### This is an h5 tag ###### This is an h6 tag HTML output: &amp;lt;h1&amp;gt;This is an h1 tag&amp;lt;/h1&amp;gt; &amp;lt;h2&amp;gt;This is an h2 tag&amp;lt;/h2&amp;gt; &amp;lt;h3&amp;gt;This is an h3 tag&amp;lt;/h3&amp;gt; &amp;lt;h4&amp;gt;This is an h4 tag&amp;lt;/h4&amp;gt; &amp;lt;h5&amp;gt;This is an h5 tag&amp;lt;/h5&amp;gt; &amp;lt;h6&amp;gt;This is an h6 tag&amp;lt;/h6&amp;gt; Emphasis With markdown, you can add emphasis by making text bold or italic.[2] To bold text, add two asterisks or underscores before and after a word or phrase. Markdown input: *This text will be italic* _This will also be italic_ **This text will be bold** __This will also be bold__ HTML output: &amp;lt;em&amp;gt;This will be italic&amp;lt;/em&amp;gt; &amp;lt;em&amp;gt;This will also be italic&amp;lt;/em&amp;gt; &amp;lt;strong&amp;gt;This will be bold&amp;lt;/strong&amp;gt; &amp;lt;strong&amp;gt;This will also be bold&amp;lt;/strong&amp;gt;</summary></entry><entry><title type="html">Getting Started with Git</title><link href="http://localhost:4000/getting-started-with-git/" rel="alternate" type="text/html" title="Getting Started with Git" /><published>2018-08-15T00:00:00-07:00</published><updated>2018-08-15T00:00:00-07:00</updated><id>http://localhost:4000/getting-started-with-git</id><content type="html" xml:base="http://localhost:4000/getting-started-with-git/">&lt;h2 id=&quot;table-of-contents&quot;&gt;&lt;strong&gt;Table of Contents&lt;/strong&gt;&lt;/h2&gt;
 
 &lt;ol&gt;
   &lt;li&gt;&lt;a href=&quot;#about&quot;&gt;About this guide&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;#git&quot;&gt;What is Git&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#common-git-commands&quot;&gt;Common Git Commands&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#common-git-commands&quot;&gt;Git Commands&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;h2 id=&quot;about-this-guide-&quot;&gt;&lt;strong&gt;About this guide&lt;/strong&gt; &lt;a name=&quot;about&quot;&gt;&lt;/a&gt;&lt;/h2&gt;
 
-&lt;h2 id=&quot;about-this-guide-&quot;&gt;About this guide &lt;a name=&quot;about&quot;&gt;&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;This document aims to help beginners learn the basic functionality of the Git version control system.&lt;/p&gt;
 
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;what-is-git-&quot;&gt;What is Git? &lt;a name=&quot;git&quot;&gt;&lt;a&gt;&lt;/a&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;h2 id=&quot;what-is-git-&quot;&gt;&lt;strong&gt;What is Git?&lt;/strong&gt; &lt;a name=&quot;git&quot;&gt;&lt;a&gt;&lt;/a&gt;&lt;/a&gt;&lt;/h2&gt;
 
 &lt;p&gt;Git is a &lt;a href=&quot;https://git-scm.com/about/free-and-open-source&quot;&gt;free and open source&lt;/a&gt; software that is best known as a version control system. A version control system, or VCS, is a tool that tracks the history of changes of a file or set of files. This is particulary useful when teams collaborate on a project together. As the project evolves, teams can run tests, fix bugs, and contribute new code with the confidence of knowing that any previous version can be recovered at any time.[1]&lt;/p&gt;
 
 &lt;p&gt;In brief, Git is a tool that lets developers see the entire timeline of their changes, decisions, and progression of any project in one place.&lt;/p&gt;
 
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;git-commands-&quot;&gt;Git commands &lt;a name=&quot;common-git-commands&quot;&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;h2 id=&quot;git-commands-&quot;&gt;&lt;strong&gt;Git commands&lt;/strong&gt; &lt;a name=&quot;common-git-commands&quot;&gt;&lt;/a&gt;&lt;/h2&gt;
 
 &lt;p&gt;Git commands can be executed directly from a command-line interface (CLI) or through a third-party desktop application such as &lt;a href=&quot;https://desktop.github.com/&quot;&gt;GitHub Desktop&lt;/a&gt;.&lt;/p&gt;
 
@@ -254,7 +236,7 @@ tab.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;References&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;[1] Source: &lt;a href=&quot;https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control&quot;&gt;“Getting Started - About Version Control”&lt;/a&gt;&lt;/p&gt;</content><author><name>Chris Oung</name></author><summary type="html">Table of Contents About this guide What is Git Common Git Commands About this guide This document aims to help beginners learn the basic functionality of the Git version control system. What is Git? Git is a free and open source software that is best known as a version control system. A version control system, or VCS, is a tool that tracks the history of changes of a file or set of files. This is particulary useful when teams collaborate on a project together. As the project evolves, teams can run tests, fix bugs, and contribute new code with the confidence of knowing that any previous version can be recovered at any time.[1] In brief, Git is a tool that lets developers see the entire timeline of their changes, decisions, and progression of any project in one place. Git commands Git commands can be executed directly from a command-line interface (CLI) or through a third-party desktop application such as GitHub Desktop. Note: Before getting started, make sure to have Git installed on your local computer. To install Git for your computer’s operating system, follow the installation instructions at Getting Started - Installing Git.</summary></entry><entry><title type="html">Welcome to Jekyll</title><link href="http://localhost:4000/welcome-to-jekyll/" rel="alternate" type="text/html" title="Welcome to Jekyll" /><published>2017-03-01T00:00:00-08:00</published><updated>2017-03-01T00:00:00-08:00</updated><id>http://localhost:4000/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/welcome-to-jekyll/">&lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+&lt;p&gt;[1] Source: &lt;a href=&quot;https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control&quot;&gt;“Getting Started - About Version Control”&lt;/a&gt;&lt;/p&gt;</content><author><name>Chris Oung</name></author><summary type="html">Table of Contents About this guide What is Git Git Commands About this guide This document aims to help beginners learn the basic functionality of the Git version control system. What is Git? Git is a free and open source software that is best known as a version control system. A version control system, or VCS, is a tool that tracks the history of changes of a file or set of files. This is particulary useful when teams collaborate on a project together. As the project evolves, teams can run tests, fix bugs, and contribute new code with the confidence of knowing that any previous version can be recovered at any time.[1] In brief, Git is a tool that lets developers see the entire timeline of their changes, decisions, and progression of any project in one place. Git commands Git commands can be executed directly from a command-line interface (CLI) or through a third-party desktop application such as GitHub Desktop. Note: Before getting started, make sure to have Git installed on your local computer. To install Git for your computer’s operating system, follow the installation instructions at Getting Started - Installing Git.</summary></entry><entry><title type="html">Welcome to Jekyll</title><link href="http://localhost:4000/welcome-to-jekyll/" rel="alternate" type="text/html" title="Welcome to Jekyll" /><published>2017-03-01T00:00:00-08:00</published><updated>2017-03-01T00:00:00-08:00</updated><id>http://localhost:4000/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/welcome-to-jekyll/">&lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
 
 &lt;p&gt;To add new posts, simply add a file in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code class=&quot;highlighter-rouge&quot;&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
 

@@ -6,27 +6,26 @@ categories: Developer Guides
 ---
 
 **Table of Contents**
+--------------------
 
 1. [About this guide](#about)
 2. [What is Git](#git)
-3. [Common Git Commands](#common-git-commands)
+3. [Git Commands](#common-git-commands)
 
-<br/>
+**About this guide** <a name="about"></a>
+----------------
 
-## About this guide <a name="about"></a>
 This document aims to help beginners learn the basic functionality of the Git version control system.
 
-<br/>
-
-## What is Git? <a name ="git"><a/>
+**What is Git?** <a name ="git"><a/>
+------------
 
 Git is a [free and open source](https://git-scm.com/about/free-and-open-source) software that is best known as a version control system. A version control system, or VCS, is a tool that tracks the history of changes of a file or set of files. This is particulary useful when teams collaborate on a project together. As the project evolves, teams can run tests, fix bugs, and contribute new code with the confidence of knowing that any previous version can be recovered at any time.[1]
 
 In brief, Git is a tool that lets developers see the entire timeline of their changes, decisions, and progression of any project in one place.
 
-<br/>
-
-## Git commands <a name="common-git-commands"></a>
+**Git commands** <a name="common-git-commands"></a>
+------------
 
 Git commands can be executed directly from a command-line interface (CLI) or through a third-party desktop application such as [GitHub Desktop](https://desktop.github.com/).
 
