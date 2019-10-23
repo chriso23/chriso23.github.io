@@ -15,7 +15,7 @@ dark_header: true          # keep the header dark
 
 icons:                       # (optional) icons in the header, see http://fontawesome.com/icons
   envelope: "https://mailto:chrisoung23@gmail.com"
-  github: "https://github.com/chrisoung"
+  github: "https://github.com/chriso23"
   rss: "/feed.xml"
 
 # Pagination
