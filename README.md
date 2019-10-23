@@ -1,6 +1,7 @@
-[chriso23.github.io]()
----------------------
-This repository contains the source code to build a personal static website and blog, which is powered by [Jekyll](https://jekyllrb.com/) and hosted on [GitHub](https://github.com) thanks to the [GitHub Pages](https://pages.github.com) hosting service.
+[chriso23.github.io](https://chriso23.github.com)
+-------------------------------------------------
+
+This repository contains the source code for a static website & blog, which is powered by [Jekyll](https://jekyllrb.com/) and hosted directly on [GitHub](https://github.com) thanks to the [GitHub Pages](https://pages.github.com) hosting service.
 
 License
 -------
